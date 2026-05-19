@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="AIVIA">
+  <rect width="1200" height="630" fill="#f6f7f9"/>
+  <rect x="72" y="72" width="1056" height="486" rx="24" fill="#ffffff" stroke="#dfe4ea" stroke-width="4"/>
+  <rect x="118" y="118" width="112" height="112" rx="24" fill="#1c2430"/>
+  <path d="M174 136 214 212h-20l-8-17h-26l-8 17h-20l42-76Zm0 30-10 22h20l-10-22Z" fill="#ffffff"/>
+  <circle cx="198" cy="198" r="14" fill="#f2c84b"/>
+  <path d="M207 207l12 12" stroke="#c73e3a" stroke-width="8" stroke-linecap="round"/>
+  <text x="270" y="178" fill="#1c2430" font-family="Arial, sans-serif" font-size="76" font-weight="800">AIVIA</text>
+  <text x="274" y="228" fill="#647083" font-family="Arial, sans-serif" font-size="30" font-weight="700">AIへの近道を、やさしく。</text>
+  <line x1="118" y1="286" x2="1082" y2="286" stroke="#dfe4ea" stroke-width="3"/>
+  <text x="118" y="358" fill="#24364b" font-family="Arial, sans-serif" font-size="44" font-weight="800">AIでできることを、普通の言葉で整理</text>
+  <text x="118" y="424" fill="#1c2430" font-family="Arial, sans-serif" font-size="30">ChatGPT、Codex、自動化、AIツールの使い方を短く実用目線でまとめるAIメディア。</text>
+  <rect x="118" y="482" width="210" height="44" rx="8" fill="#c73e3a"/>
+  <text x="146" y="513" fill="#ffffff" font-family="Arial, sans-serif" font-size="22" font-weight="800">AIVIA編集部</text>
+</svg>

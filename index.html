@@ -1,0 +1,1427 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AIVIA</title>
+  <meta name="description" content="AIVIAは、ChatGPT、Codex、自動化、AIツールの使い方を、短く実用目線で整理するAIメディアです。">
+  <link rel="canonical" href="https://aivia-ai.github.io/">
+  <link rel="alternate" type="application/rss+xml" title="AIVIA RSS" href="https://aivia-ai.github.io/rss.xml">
+  <meta property="og:site_name" content="AIVIA">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:title" content="AIVIA">
+  <meta property="og:description" content="AIVIAは、ChatGPT、Codex、自動化、AIツールの使い方を、短く実用目線で整理するAIメディアです。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://aivia-ai.github.io/">
+  <meta property="og:image" content="https://aivia-ai.github.io/assets/topiq-og.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="AIVIA">
+  <meta name="twitter:description" content="AIVIAは、ChatGPT、Codex、自動化、AIツールの使い方を、短く実用目線で整理するAIメディアです。">
+  <meta name="twitter:image" content="https://aivia-ai.github.io/assets/topiq-og.png">
+  <meta name="theme-color" content="#0f2942">
+  
+  <link rel="icon" href="./assets/topiq-mark.svg" type="image/svg+xml">
+  <link rel="manifest" href="./site.webmanifest">
+  
+  
+  
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"AIVIA","url":"https://aivia-ai.github.io/","description":"AIVIAは、ChatGPT、Codex、自動化、AIツールの使い方を、短く実用目線で整理するAIメディアです。","publisher":{"@type":"Organization","name":"AIVIA","logo":{"@type":"ImageObject","url":"https://aivia-ai.github.io/assets/topiq-mark.svg"}},"potentialAction":{"@type":"SearchAction","target":"https://aivia-ai.github.io/?q={search_term_string}","query-input":"required name=search_term_string"}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"AIVIA","url":"https://aivia-ai.github.io/","logo":"https://aivia-ai.github.io/assets/topiq-mark.svg","description":"AIVIAは、ChatGPT、Codex、自動化、AIツールの使い方を、短く実用目線で整理するAIメディアです。"}</script>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="./index.html">
+        <span class="brand-mark-wrap" aria-hidden="true">
+          <img src="./assets/topiq-mark.svg" width="40" height="40" alt="">
+          <span class="brand-pulse"></span>
+        </span>
+        <span class="brand-text">
+          <span class="brand-kicker">AI PRACTICAL MEDIA</span>
+          <strong>AIVIA</strong>
+          <span>AIへの近道を、やさしく。</span>
+        </span>
+      </a>
+      <nav class="nav" aria-label="主要メニュー">
+        <a href="./category/ai-basics/index.html">AI入門</a>
+        <a href="./category/chatgpt/index.html">ChatGPT活用</a>
+        <a href="./category/codex-build/index.html">Codex制作</a>
+        <a href="./category/automation/index.html">自動化</a>
+        <a href="./pages/editorial-policy/index.html">編集方針</a>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <section class="portal-search-band">
+  <div class="portal-status">
+    <span>AIVIA AI実用メディア</span>
+    <span>2026/05/19 19:00 更新</span>
+    <span>41本掲載</span>
+  </div>
+  <form class="portal-search" action="./index.html" method="get" data-search-form role="search">
+    <label for="topiq-search">AIVIA内の記事検索</label>
+    <div class="portal-search-row">
+      <input id="topiq-search" name="q" type="search" placeholder="キーワード、人物名、カテゴリで検索" autocomplete="off" data-search-input>
+      <button class="button" type="submit">検索</button>
+    </div>
+  </form>
+  <div class="search-results" data-search-results hidden></div>
+</section>
+
+<nav class="category-rail" aria-label="カテゴリ">
+  <a href="./category/ai-basics/index.html">AI入門</a>
+<a href="./category/chatgpt/index.html">ChatGPT活用</a>
+<a href="./category/codex-build/index.html">Codex制作</a>
+<a href="./category/automation/index.html">自動化</a>
+<a href="./category/tool-compare/index.html">AIツール比較</a>
+<a href="./category/side-business/index.html">AI副業</a>
+<a href="./category/money-safety/index.html">料金と安全</a>
+<a href="./category/case-log/index.html">実践記録</a>
+</nav>
+
+<section class="signal-board" aria-labelledby="signal-board-title">
+  <div class="signal-header">
+    <div>
+      <span>AIVIA GUIDE</span>
+      <h2 id="signal-board-title">話題を、背景で並べる</h2>
+    </div>
+    <time datetime="2026-05-19T19:00:00+09:00">2026/05/19 19:00 更新</time>
+  </div>
+  <div class="signal-layout">
+    <div class="signal-tabs" role="tablist" aria-label="AIVIA GUIDE">
+      <button type="button" class="is-active" data-signal-tab="main">主要</button>
+<button type="button" class="" data-signal-tab="ai-basics">AI入門</button>
+<button type="button" class="" data-signal-tab="chatgpt">ChatGPT活用</button>
+<button type="button" class="" data-signal-tab="codex-build">Codex制作</button>
+<button type="button" class="" data-signal-tab="automation">自動化</button>
+<button type="button" class="" data-signal-tab="tool-compare">AIツール比較</button>
+<button type="button" class="" data-signal-tab="side-business">AI副業</button>
+<button type="button" class="" data-signal-tab="money-safety">料金と安全</button>
+    </div>
+    <div class="signal-feed">
+      <div class="signal-panel is-active" data-signal-panel="main">
+  <ul><li>
+  <a class="signal-thumb" href="./articles/ai-site-publish-checklist/index.html" aria-label="AIでサイト公開まで進めるチェックリスト">
+  <img src="./assets/articles/thumb-digital-research.jpg" alt="デジタル調査をする人物の無料素材写真" loading="lazy">
+</a>
+  <div class="signal-item-main">
+    <a href="./articles/ai-site-publish-checklist/index.html">AIでサイト公開まで進めるチェックリスト</a>
+    <p>AIで作ったサイトを公開する前に見る項目をチェックリスト化します。</p>
+    <div class="signal-item-meta">
+      <span>New</span>
+      <span>Codex制作</span>
+      <strong>41 IQ</strong>
+    </div>
+  </div>
+</li>
+<li>
+  <a class="signal-thumb" href="./articles/ai-tool-comparison-checkpoints/index.html" aria-label="AIツール比較記事で見るべきポイント">
+  <img src="./assets/articles/external-link-scam-checklist.jpg" alt="スマートフォンを見る人物の無料素材写真" loading="lazy">
+</a>
+  <div class="signal-item-main">
+    <a href="./articles/ai-tool-comparison-checkpoints/index.html">AIツール比較記事で見るべきポイント</a>
+    <p>AIツール比較記事を読むとき、料金、使える機能、向いている人を見る理由を整理します。</p>
+    <div class="signal-item-meta">
+      <span>New</span>
+      <span>AIツール比較</span>
+      <strong>63 IQ</strong>
+    </div>
+  </div>
+</li>
+<li>
+  <a class="signal-thumb" href="./articles/ai-daily-writing-routine/index.html" aria-label="AIで記事を書く日次ルーティン、朝にやること夜にやること">
+  <img src="./assets/articles/affiliate-ad-disclosure-guide.jpg" alt="オンラインショッピング画面を見る人物の無料素材写真" loading="lazy">
+</a>
+  <div class="signal-item-main">
+    <a href="./articles/ai-daily-writing-routine/index.html">AIで記事を書く日次ルーティン、朝にやること夜にやること</a>
+    <p>AI実用メディアを続けるための日次ルーティンを整理します。</p>
+    <div class="signal-item-meta">
+      <span>New</span>
+      <span>自動化</span>
+      <strong>74 IQ</strong>
+    </div>
+  </div>
+</li>
+<li>
+  <a class="signal-thumb" href="./articles/ai-category-design-before-writing/index.html" aria-label="AIで記事を増やす前に、カテゴリを決める理由">
+  <img src="./assets/articles/thumb-public-news-documents.jpg" alt="資料を確認する手元の無料素材写真" loading="lazy">
+</a>
+  <div class="signal-item-main">
+    <a href="./articles/ai-category-design-before-writing/index.html">AIで記事を増やす前に、カテゴリを決める理由</a>
+    <p>AI実用記事を増やす前に、カテゴリ設計を決める意味を説明します。</p>
+    <div class="signal-item-meta">
+      
+      <span>自動化</span>
+      <strong>16 IQ</strong>
+    </div>
+  </div>
+</li>
+<li>
+  <a class="signal-thumb" href="./articles/aivia-site-concept/index.html" aria-label="AIVIAは何をするサイト？AIへの近道をやさしく作る">
+  <img src="./assets/articles/thumb-news-link-business-model.jpg" alt="ニュースとノートパソコンの無料素材写真" loading="lazy">
+</a>
+  <div class="signal-item-main">
+    <a href="./articles/aivia-site-concept/index.html">AIVIAは何をするサイト？AIへの近道をやさしく作る</a>
+    <p>AIVIAという名前の由来と、AI初心者向け実用メディアとしての方針をまとめます。</p>
+    <div class="signal-item-meta">
+      
+      <span>実践記録</span>
+      <strong>18 IQ</strong>
+    </div>
+  </div>
+</li>
+<li>
+  <a class="signal-thumb" href="./articles/ai-practical-database-concept/index.html" aria-label="AI活用データベースとは？ニュースより残るサイトの作り方">
+  <img src="./assets/articles/thumb-search-lasting-article-types.jpg" alt="ノートパソコンで調べる人物の無料素材写真" loading="lazy">
+</a>
+  <div class="signal-item-main">
+    <a href="./articles/ai-practical-database-concept/index.html">AI活用データベースとは？ニュースより残るサイトの作り方</a>
+    <p>AIVIAがニュースサイトではなくAI活用データベースを目指す理由を説明します。</p>
+    <div class="signal-item-meta">
+      
+      <span>実践記録</span>
+      <strong>46 IQ</strong>
+    </div>
+  </div>
+</li>
+<li>
+  <a class="signal-thumb" href="./articles/ai-work-time-log/index.html" aria-label="AIで作業時間を記録すると、収益化の現実が見える">
+  <img src="./assets/articles/thumb-team-discussion-news.jpg" alt="チームで議論する人物の無料素材写真" loading="lazy">
+</a>
+  <div class="signal-item-main">
+    <a href="./articles/ai-work-time-log/index.html">AIで作業時間を記録すると、収益化の現実が見える</a>
+    <p>AI副業やメディア運営で、作業時間を記録する意味を整理します。</p>
+    <div class="signal-item-meta">
+      
+      <span>実践記録</span>
+      <strong>50 IQ</strong>
+    </div>
+  </div>
+</li></ul>
+</div>
+<div class="signal-panel " data-signal-panel="ai-basics">
+  <ul><li>
+  <a class="signal-thumb" href="./articles/ai-prompt-reduce-mistakes/index.html" aria-label="AIの間違いを減らす質問の書き方">
+  <img src="./assets/articles/thumb-business-news-desk.jpg" alt="ビジネス資料とノートパソコンの無料素材写真" loading="lazy">
+</a>
+  <div class="signal-item-main">
+    <a href="./articles/ai-prompt-reduce-mistakes/index.html">AIの間違いを減らす質問の書き方</a>
+    <p>AIの回答ミスを減らすために、条件、目的、確認方法を入れて質問する方法を説明します。</p>
+    <div class="signal-item-meta">
+      <span>New</span>
+      <span>AI入門</span>
+      <strong>52 IQ</strong>
+    </div>
+  </div>
+</li>
+<li>
+  <a class="signal-thumb" href="./articles/ai-study-plan-weekly/index.html" aria-label="AIで勉強計画を作るなら、1週間単位から始める">
+  <img src="./assets/articles/thumb-public-news-documents.jpg" alt="資料を確認する手元の無料素材写真" loading="lazy">
+</a>
+  <div class="signal-item-main">
+    <a href="./articles/ai-study-plan-weekly/index.html">AIで勉強計画を作るなら、1週間単位から始める</a>
+    <p>AIで勉強計画を作るとき、長期計画より1週間単位が続きやすい理由を説明します。</p>
+    <div class="signal-item-meta">
+      <span>New</span>
+      <span>AI入門</span>
+      <strong>64 IQ</strong>
+    </div>
+  </div>
+</li>
+<li>
+  <a class="signal-thumb" href="./articles/ai-meeting-notes-basic/index.html" aria-label="AIで議事録を作るとき、あとで困らない整理方法">
+  <img src="./assets/articles/thumb-news-link-business-model.jpg" alt="ニュースとノートパソコンの無料素材写真" loading="lazy">
+</a>
+  <div class="signal-item-main">
+    <a href="./articles/ai-meeting-notes-basic/index.html">AIで議事録を作るとき、あとで困らない整理方法</a>
+    <p>AIで議事録を作るとき、決定事項、宿題、期限を分ける方法をまとめます。</p>
+    <div class="signal-item-meta">
+      <span>New</span>
+      <span>AI入門</span>
+      <strong>83 IQ</strong>
+    </div>
+  </div>
+</li>
+<li>
+  <a class="signal-thumb" href="./articles/ai-email-writing-basic/index.html" aria-label="AIでメール文を書くとき、失礼にならない頼み方">
+  <img src="./assets/articles/thumb-search-lasting-article-types.jpg" alt="ノートパソコンで調べる人物の無料素材写真" loading="lazy">
+</a>
+  <div class="signal-item-main">
+    <a href="./articles/ai-email-writing-basic/index.html">AIでメール文を書くとき、失礼にならない頼み方</a>
+    <p>AIにメール文を作らせるとき、相手、目的、温度感を伝える重要性を説明します。</p>
+    <div class="signal-item-meta">
+      
+      <span>AI入門</span>
+      <strong>16 IQ</strong>
+    </div>
+  </div>
+</li>
+<li>
+  <a class="signal-thumb" href="./articles/ai-answer-check-basics/index.html" aria-label="AIの答えをそのまま信じないための確認方法">
+  <img src="./assets/articles/external-link-scam-checklist.jpg" alt="スマートフォンを見る人物の無料素材写真" loading="lazy">
+</a>
+  <div class="signal-item-main">
+    <a href="./articles/ai-answer-check-basics/index.html">AIの答えをそのまま信じないための確認方法</a>
+    <p>AIの回答を使う前に、日付、出典、公式情報を確認する基本を説明します。</p>
+    <div class="signal-item-meta">
+      
+      <span>AI入門</span>
+      <strong>33 IQ</strong>
+    </div>
+  </div>
+</li>
+<li>
+  <a class="signal-thumb" href="./articles/ai-writing-not-copy/index.html" aria-label="AIでブログ記事を書くとき、丸写しにならない作り方">
+  <img src="./assets/articles/affiliate-ad-disclosure-guide.jpg" alt="オンラインショッピング画面を見る人物の無料素材写真" loading="lazy">
+</a>
+  <div class="signal-item-main">
+    <a href="./articles/ai-writing-not-copy/index.html">AIでブログ記事を書くとき、丸写しにならない作り方</a>
+    <p>AIで記事を書くとき、元情報の丸写しを避けて自分の体験や判断を入れる方法をまとめます。</p>
+    <div class="signal-item-meta">
+      
+      <span>AI入門</span>
+      <strong>47 IQ</strong>
+    </div>
+  </div>
+</li>
+<li>
+  <a class="signal-thumb" href="./articles/chatgpt-first-five-uses/index.html" aria-label="ChatGPTは何に使える？最初に試したい5つの使い方">
+  <img src="./assets/articles/thumb-ad-pr-label-basics.jpg" alt="スマートフォンを見る人物の無料素材写真" loading="lazy">
+</a>
+  <div class="signal-item-main">
+    <a href="./articles/chatgpt-first-five-uses/index.html">ChatGPTは何に使える？最初に試したい5つの使い方</a>
+    <p>ChatGPTを初めて使う人向けに、文章、調べもの、整理、相談、学習での使い方をまとめます。</p>
+    <div class="signal-item-meta">
+      
+      <span>AI入門</span>
+      <strong>68 IQ</strong>
+    </div>
+  </div>
+</li></ul>
+</div>
+<div class="signal-panel " data-signal-panel="chatgpt">
+  <ul><li>
+  <a class="signal-thumb" href="./articles/chatgpt-connectors-file-search/index.html" aria-label="ChatGPT Connectorsとは？自分の資料を探してもらう前に知ること">
+  <img src="./assets/articles/thumb-public-news-documents.jpg" alt="資料を確認する手元の無料素材写真" loading="lazy">
+</a>
+  <div class="signal-item-main">
+    <a href="./articles/chatgpt-connectors-file-search/index.html">ChatGPT Connectorsとは？自分の資料を探してもらう前に知ること</a>
+    <p>ChatGPT Connectorsで外部サービスの情報を扱うとき、便利さと注意点を整理します。</p>
+    <div class="signal-item-meta">
+      <span>New</span>
+      <span>ChatGPT活用</span>
+      <strong>68 IQ</strong>
+    </div>
+  </div>
+</li>
+<li>
+  <a class="signal-thumb" href="./articles/chatgpt-projects-beginner-guide/index.html" aria-label="ChatGPT Projectsとは？長く続く作業をまとめる箱として考える">
+  <img src="./assets/articles/thumb-search-lasting-article-types.jpg" alt="ノートパソコンで調べる人物の無料素材写真" loading="lazy">
+</a>
+  <div class="signal-item-main">
+    <a href="./articles/chatgpt-projects-beginner-guide/index.html">ChatGPT Projectsとは？長く続く作業をまとめる箱として考える</a>
+    <p>ChatGPT Projectsを、フォルダのように仕事や学習をまとめる機能としてやさしく説明します。</p>
+    <div class="signal-item-meta">
+      <span>New</span>
+      <span>ChatGPT活用</span>
+      <strong>86 IQ</strong>
+    </div>
+  </div>
+</li></ul>
+</div>
+<div class="signal-panel " data-signal-panel="codex-build">
+  <ul><li>
+  <a class="signal-thumb" href="./articles/ai-site-publish-checklist/index.html" aria-label="AIでサイト公開まで進めるチェックリスト">
+  <img src="./assets/articles/thumb-digital-research.jpg" alt="デジタル調査をする人物の無料素材写真" loading="lazy">
+</a>
+  <div class="signal-item-main">
+    <a href="./articles/ai-site-publish-checklist/index.html">AIでサイト公開まで進めるチェックリスト</a>
+    <p>AIで作ったサイトを公開する前に見る項目をチェックリスト化します。</p>
+    <div class="signal-item-meta">
+      <span>New</span>
+      <span>Codex制作</span>
+      <strong>74 IQ</strong>
+    </div>
+  </div>
+</li>
+<li>
+  <a class="signal-thumb" href="./articles/netlify-free-publish-flow/index.html" aria-label="Netlifyで無料公開する流れと注意点">
+  <img src="./assets/articles/thumb-business-news-desk.jpg" alt="ノートパソコンで公開作業を確認する人の無料素材写真" loading="lazy">
+</a>
+  <div class="signal-item-main">
+    <a href="./articles/netlify-free-publish-flow/index.html">Netlifyで無料公開する流れと注意点</a>
+    <p>Netlifyでサイトを無料公開するときの流れを、公式情報をもとに短く整理します。</p>
+    <div class="signal-item-meta">
+      <span>New</span>
+      <span>Codex制作</span>
+      <strong>91 IQ</strong>
+    </div>
+  </div>
+</li>
+<li>
+  <a class="signal-thumb" href="./articles/ai-link-check-before-publish/index.html" aria-label="AIでリンク切れチェックはできる？公開前に見る場所">
+  <img src="./assets/articles/thumb-ad-pr-label-basics.jpg" alt="スマートフォンを見る人物の無料素材写真" loading="lazy">
+</a>
+  <div class="signal-item-main">
+    <a href="./articles/ai-link-check-before-publish/index.html">AIでリンク切れチェックはできる？公開前に見る場所</a>
+    <p>公開前にAIとスクリプトでリンク切れを確認する考え方をまとめます。</p>
+    <div class="signal-item-meta">
+      <span>New</span>
+      <span>Codex制作</span>
+      <strong>27 IQ</strong>
+    </div>
+  </div>
+</li>
+<li>
+  <a class="signal-thumb" href="./articles/codex-request-writing-guide/index.html" aria-label="Codexでサイト修正を頼むときの書き方">
+  <img src="./assets/articles/external-link-scam-checklist.jpg" alt="スマートフォンを見る人物の無料素材写真" loading="lazy">
+</a>
+  <div class="signal-item-main">
+    <a href="./articles/codex-request-writing-guide/index.html">Codexでサイト修正を頼むときの書き方</a>
+    <p>Codexへ修正を頼むとき、どう伝えると失敗しにくいかを実例ベースで整理します。</p>
+    <div class="signal-item-meta">
+      
+      <span>Codex制作</span>
+      <strong>43 IQ</strong>
+    </div>
+  </div>
+</li>
+<li>
+  <a class="signal-thumb" href="./articles/codex-beginner-what-can-ask/index.html" aria-label="Codexとは？プログラミングが苦手でも何を頼めるのか">
+  <img src="./assets/articles/affiliate-ad-disclosure-guide.jpg" alt="オンラインショッピング画面を見る人物の無料素材写真" loading="lazy">
+</a>
+  <div class="signal-item-main">
+    <a href="./articles/codex-beginner-what-can-ask/index.html">Codexとは？プログラミングが苦手でも何を頼めるのか</a>
+    <p>Codexを、コードを書く人だけでなくサイトを作りたい普通の人向けに説明します。</p>
+    <div class="signal-item-meta">
+      
+      <span>Codex制作</span>
+      <strong>60 IQ</strong>
+    </div>
+  </div>
+</li></ul>
+</div>
+<div class="signal-panel " data-signal-panel="automation">
+  <ul><li>
+  <a class="signal-thumb" href="./articles/ai-daily-writing-routine/index.html" aria-label="AIで記事を書く日次ルーティン、朝にやること夜にやること">
+  <img src="./assets/articles/affiliate-ad-disclosure-guide.jpg" alt="オンラインショッピング画面を見る人物の無料素材写真" loading="lazy">
+</a>
+  <div class="signal-item-main">
+    <a href="./articles/ai-daily-writing-routine/index.html">AIで記事を書く日次ルーティン、朝にやること夜にやること</a>
+    <p>AI実用メディアを続けるための日次ルーティンを整理します。</p>
+    <div class="signal-item-meta">
+      
+      <span>自動化</span>
+      <strong>84 IQ</strong>
+    </div>
+  </div>
+</li>
+<li>
+  <a class="signal-thumb" href="./articles/ai-category-design-before-writing/index.html" aria-label="AIで記事を増やす前に、カテゴリを決める理由">
+  <img src="./assets/articles/thumb-public-news-documents.jpg" alt="資料を確認する手元の無料素材写真" loading="lazy">
+</a>
+  <div class="signal-item-main">
+    <a href="./articles/ai-category-design-before-writing/index.html">AIで記事を増やす前に、カテゴリを決める理由</a>
+    <p>AI実用記事を増やす前に、カテゴリ設計を決める意味を説明します。</p>
+    <div class="signal-item-meta">
+      
+      <span>自動化</span>
+      <strong>26 IQ</strong>
+    </div>
+  </div>
+</li>
+<li>
+  <a class="signal-thumb" href="./articles/ai-daily-topic-collection/index.html" aria-label="AIで毎朝ネタを集める仕組みを作る考え方">
+  <img src="./assets/articles/thumb-team-discussion-news.jpg" alt="チームで議論する人物の無料素材写真" loading="lazy">
+</a>
+  <div class="signal-item-main">
+    <a href="./articles/ai-daily-topic-collection/index.html">AIで毎朝ネタを集める仕組みを作る考え方</a>
+    <p>AI実用メディアで毎朝ネタを集めるときの情報源と分類方法を整理します。</p>
+    <div class="signal-item-meta">
+      
+      <span>自動化</span>
+      <strong>35 IQ</strong>
+    </div>
+  </div>
+</li>
+<li>
+  <a class="signal-thumb" href="./articles/ai-feature-article-template/index.html" aria-label="AIツールの新機能を記事にするテンプレート">
+  <img src="./assets/articles/thumb-business-news-desk.jpg" alt="ビジネス資料とノートパソコンの無料素材写真" loading="lazy">
+</a>
+  <div class="signal-item-main">
+    <a href="./articles/ai-feature-article-template/index.html">AIツールの新機能を記事にするテンプレート</a>
+    <p>新しいAI機能を見つけたとき、記事へ変換する型を整理します。</p>
+    <div class="signal-item-meta">
+      
+      <span>自動化</span>
+      <strong>54 IQ</strong>
+    </div>
+  </div>
+</li>
+<li>
+  <a class="signal-thumb" href="./articles/ai-news-to-practical-guide/index.html" aria-label="AIでニュースを拾うより、使える形に直す方が価値になる">
+  <img src="./assets/articles/thumb-digital-research.jpg" alt="デジタル調査をする人物の無料素材写真" loading="lazy">
+</a>
+  <div class="signal-item-main">
+    <a href="./articles/ai-news-to-practical-guide/index.html">AIでニュースを拾うより、使える形に直す方が価値になる</a>
+    <p>AIニュースをそのまま追うのではなく、普通の人が使える形へ変える考え方を整理します。</p>
+    <div class="signal-item-meta">
+      
+      <span>自動化</span>
+      <strong>70 IQ</strong>
+    </div>
+  </div>
+</li>
+<li>
+  <a class="signal-thumb" href="./articles/chatgpt-tasks-daily-automation/index.html" aria-label="ChatGPT Tasksで何ができる？毎日の確認をAIに頼む考え方">
+  <img src="./assets/articles/thumb-news-link-business-model.jpg" alt="ニュースとノートパソコンの無料素材写真" loading="lazy">
+</a>
+  <div class="signal-item-main">
+    <a href="./articles/chatgpt-tasks-daily-automation/index.html">ChatGPT Tasksで何ができる？毎日の確認をAIに頼む考え方</a>
+    <p>ChatGPT Tasksを使うと、毎日の確認やリマインドをどこまで任せられるかを整理します。</p>
+    <div class="signal-item-meta">
+      
+      <span>自動化</span>
+      <strong>91 IQ</strong>
+    </div>
+  </div>
+</li></ul>
+</div>
+<div class="signal-panel " data-signal-panel="tool-compare">
+  <ul><li>
+  <a class="signal-thumb" href="./articles/ai-tool-comparison-checkpoints/index.html" aria-label="AIツール比較記事で見るべきポイント">
+  <img src="./assets/articles/external-link-scam-checklist.jpg" alt="スマートフォンを見る人物の無料素材写真" loading="lazy">
+</a>
+  <div class="signal-item-main">
+    <a href="./articles/ai-tool-comparison-checkpoints/index.html">AIツール比較記事で見るべきポイント</a>
+    <p>AIツール比較記事を読むとき、料金、使える機能、向いている人を見る理由を整理します。</p>
+    <div class="signal-item-meta">
+      
+      <span>AIツール比較</span>
+      <strong>17 IQ</strong>
+    </div>
+  </div>
+</li>
+<li>
+  <a class="signal-thumb" href="./articles/chatgpt-gemini-claude-first-choice/index.html" aria-label="ChatGPT、Gemini、Claude、最初に使うならどれ？">
+  <img src="./assets/articles/thumb-search-lasting-article-types.jpg" alt="ノートパソコンで調べる人物の無料素材写真" loading="lazy">
+</a>
+  <div class="signal-item-main">
+    <a href="./articles/chatgpt-gemini-claude-first-choice/index.html">ChatGPT、Gemini、Claude、最初に使うならどれ？</a>
+    <p>代表的なAIツールを、初心者が最初に何で選べばいいか整理します。</p>
+    <div class="signal-item-meta">
+      
+      <span>AIツール比較</span>
+      <strong>38 IQ</strong>
+    </div>
+  </div>
+</li>
+<li>
+  <a class="signal-thumb" href="./articles/claude-artifacts-basic/index.html" aria-label="Claude Artifactsとは？AIが作ったものを横で見ながら直す感覚">
+  <img src="./assets/articles/thumb-team-discussion-news.jpg" alt="チームで議論する人物の無料素材写真" loading="lazy">
+</a>
+  <div class="signal-item-main">
+    <a href="./articles/claude-artifacts-basic/index.html">Claude Artifactsとは？AIが作ったものを横で見ながら直す感覚</a>
+    <p>Claude Artifactsを、コードや資料を画面横で確認しながら作る機能として説明します。</p>
+    <div class="signal-item-meta">
+      
+      <span>AIツール比較</span>
+      <strong>43 IQ</strong>
+    </div>
+  </div>
+</li>
+<li>
+  <a class="signal-thumb" href="./articles/gemini-gems-custom-ai/index.html" aria-label="Gemini Gemsとは？自分専用のAI係を作る考え方">
+  <img src="./assets/articles/thumb-business-news-desk.jpg" alt="ビジネス資料とノートパソコンの無料素材写真" loading="lazy">
+</a>
+  <div class="signal-item-main">
+    <a href="./articles/gemini-gems-custom-ai/index.html">Gemini Gemsとは？自分専用のAI係を作る考え方</a>
+    <p>Gemini Gemsを、自分用の役割を持つAIとしてどう使うか整理します。</p>
+    <div class="signal-item-meta">
+      
+      <span>AIツール比較</span>
+      <strong>59 IQ</strong>
+    </div>
+  </div>
+</li>
+<li>
+  <a class="signal-thumb" href="./articles/gemini-deep-research-basic/index.html" aria-label="Gemini Deep Researchは何が便利？調べものを任せる前の注意点">
+  <img src="./assets/articles/thumb-digital-research.jpg" alt="デジタル調査をする人物の無料素材写真" loading="lazy">
+</a>
+  <div class="signal-item-main">
+    <a href="./articles/gemini-deep-research-basic/index.html">Gemini Deep Researchは何が便利？調べものを任せる前の注意点</a>
+    <p>Gemini Deep Researchを、調べものレポートを作る機能として初心者向けに整理します。</p>
+    <div class="signal-item-meta">
+      
+      <span>AIツール比較</span>
+      <strong>81 IQ</strong>
+    </div>
+  </div>
+</li></ul>
+</div>
+<div class="signal-panel " data-signal-panel="side-business">
+  <ul><li>
+  <a class="signal-thumb" href="./articles/ai-300k-first-metrics/index.html" aria-label="AIで月30万円を目指すなら、最初に見るべき数字">
+  <img src="./assets/articles/external-link-scam-checklist.jpg" alt="スマートフォンを見る人物の無料素材写真" loading="lazy">
+</a>
+  <div class="signal-item-main">
+    <a href="./articles/ai-300k-first-metrics/index.html">AIで月30万円を目指すなら、最初に見るべき数字</a>
+    <p>AIメディアで月30万円を狙う前に、記事数、アクセス、広告単価の考え方を整理します。</p>
+    <div class="signal-item-meta">
+      
+      <span>AI副業</span>
+      <strong>19 IQ</strong>
+    </div>
+  </div>
+</li>
+<li>
+  <a class="signal-thumb" href="./articles/ai-side-business-first-three/index.html" aria-label="AIで副業を始める前に、最初に決める3つのこと">
+  <img src="./assets/articles/affiliate-ad-disclosure-guide.jpg" alt="オンラインショッピング画面を見る人物の無料素材写真" loading="lazy">
+</a>
+  <div class="signal-item-main">
+    <a href="./articles/ai-side-business-first-three/index.html">AIで副業を始める前に、最初に決める3つのこと</a>
+    <p>AI副業を始めたい人が、ツールより先に決めるべき目的、時間、売り方を整理します。</p>
+    <div class="signal-item-meta">
+      
+      <span>AI副業</span>
+      <strong>43 IQ</strong>
+    </div>
+  </div>
+</li>
+<li>
+  <a class="signal-thumb" href="./articles/ai-seo-evergreen-theme/index.html" aria-label="AIでSEO記事を作るとき、検索され続けるテーマの選び方">
+  <img src="./assets/articles/thumb-public-news-documents.jpg" alt="資料を確認する手元の無料素材写真" loading="lazy">
+</a>
+  <div class="signal-item-main">
+    <a href="./articles/ai-seo-evergreen-theme/index.html">AIでSEO記事を作るとき、検索され続けるテーマの選び方</a>
+    <p>AI実用メディアで、短いニュースではなく長く読まれる記事を作る考え方を整理します。</p>
+    <div class="signal-item-meta">
+      
+      <span>AI副業</span>
+      <strong>54 IQ</strong>
+    </div>
+  </div>
+</li>
+<li>
+  <a class="signal-thumb" href="./articles/adsense-before-review-checklist/index.html" aria-label="AdSense審査前に見ること、記事数より大事な基本">
+  <img src="./assets/articles/thumb-ad-pr-label-basics.jpg" alt="スマートフォンを見る人物の無料素材写真" loading="lazy">
+</a>
+  <div class="signal-item-main">
+    <a href="./articles/adsense-before-review-checklist/index.html">AdSense審査前に見ること、記事数より大事な基本</a>
+    <p>AdSense審査前に、記事数だけでなく必須ページや独自性を見る理由を整理します。</p>
+    <div class="signal-item-meta">
+      
+      <span>AI副業</span>
+      <strong>80 IQ</strong>
+    </div>
+  </div>
+</li></ul>
+</div>
+<div class="signal-panel " data-signal-panel="money-safety">
+  <ul><li>
+  <a class="signal-thumb" href="./articles/ai-personal-data-check/index.html" aria-label="AIに個人情報を入れる前に確認したいこと">
+  <img src="./assets/articles/thumb-digital-research.jpg" alt="デジタル調査をする人物の無料素材写真" loading="lazy">
+</a>
+  <div class="signal-item-main">
+    <a href="./articles/ai-personal-data-check/index.html">AIに個人情報を入れる前に確認したいこと</a>
+    <p>AIへ個人情報や仕事の資料を入れる前に、確認したい基本を整理します。</p>
+    <div class="signal-item-meta">
+      
+      <span>料金と安全</span>
+      <strong>31 IQ</strong>
+    </div>
+  </div>
+</li>
+<li>
+  <a class="signal-thumb" href="./articles/ai-plan-price-check/index.html" aria-label="AIの料金プランを比べるとき、月額だけで決めない">
+  <img src="./assets/articles/external-link-scam-checklist.jpg" alt="スマートフォンを見る人物の無料素材写真" loading="lazy">
+</a>
+  <div class="signal-item-main">
+    <a href="./articles/ai-plan-price-check/index.html">AIの料金プランを比べるとき、月額だけで決めない</a>
+    <p>AIサービスの料金を見るとき、月額、回数、必要な機能を分けて考えます。</p>
+    <div class="signal-item-meta">
+      
+      <span>料金と安全</span>
+      <strong>45 IQ</strong>
+    </div>
+  </div>
+</li>
+<li>
+  <a class="signal-thumb" href="./articles/ai-money-consult-privacy/index.html" aria-label="AIに家計相談をするとき、入れていい情報と危ない情報">
+  <img src="./assets/articles/affiliate-ad-disclosure-guide.jpg" alt="オンラインショッピング画面を見る人物の無料素材写真" loading="lazy">
+</a>
+  <div class="signal-item-main">
+    <a href="./articles/ai-money-consult-privacy/index.html">AIに家計相談をするとき、入れていい情報と危ない情報</a>
+    <p>AIにお金の相談をするとき、個人情報を入れすぎないための考え方を整理します。</p>
+    <div class="signal-item-meta">
+      
+      <span>料金と安全</span>
+      <strong>67 IQ</strong>
+    </div>
+  </div>
+</li>
+<li>
+  <a class="signal-thumb" href="./articles/ai-image-vs-free-stock-photo/index.html" aria-label="AIで画像を作る前に、無料素材写真を使う選択肢">
+  <img src="./assets/articles/thumb-news-link-business-model.jpg" alt="ニュースとノートパソコンの無料素材写真" loading="lazy">
+</a>
+  <div class="signal-item-main">
+    <a href="./articles/ai-image-vs-free-stock-photo/index.html">AIで画像を作る前に、無料素材写真を使う選択肢</a>
+    <p>画像生成と無料素材写真の違いを、記事運営の安全性から整理します。</p>
+    <div class="signal-item-meta">
+      
+      <span>料金と安全</span>
+      <strong>88 IQ</strong>
+    </div>
+  </div>
+</li>
+<li>
+  <a class="signal-thumb" href="./articles/search-console-sitemap-basic/index.html" aria-label="Search Consoleは何をする場所？Googleにサイトを知らせる手順">
+  <img src="./assets/articles/thumb-ad-pr-label-basics.jpg" alt="スマートフォンを見る人物の無料素材写真" loading="lazy">
+</a>
+  <div class="signal-item-main">
+    <a href="./articles/search-console-sitemap-basic/index.html">Search Consoleは何をする場所？Googleにサイトを知らせる手順</a>
+    <p>Search Consoleでサイトを登録し、sitemap.xmlを送る意味をやさしく整理します。</p>
+    <div class="signal-item-meta">
+      
+      <span>料金と安全</span>
+      <strong>21 IQ</strong>
+    </div>
+  </div>
+</li>
+<li>
+  <a class="signal-thumb" href="./articles/google-analytics-first-metrics/index.html" aria-label="Google Analyticsは何を見る道具？公開後に最初に見る数字">
+  <img src="./assets/articles/thumb-search-lasting-article-types.jpg" alt="ノートパソコンで調べる人物の無料素材写真" loading="lazy">
+</a>
+  <div class="signal-item-main">
+    <a href="./articles/google-analytics-first-metrics/index.html">Google Analyticsは何を見る道具？公開後に最初に見る数字</a>
+    <p>Google Analyticsを、公開後にどの記事が読まれているかを見る道具として説明します。</p>
+    <div class="signal-item-meta">
+      
+      <span>料金と安全</span>
+      <strong>40 IQ</strong>
+    </div>
+  </div>
+</li>
+<li>
+  <a class="signal-thumb" href="./articles/custom-domain-vs-netlify-app/index.html" aria-label="独自ドメインは必要？netlify.appとの違い">
+  <img src="./assets/articles/thumb-team-discussion-news.jpg" alt="チームで議論する人物の無料素材写真" loading="lazy">
+</a>
+  <div class="signal-item-main">
+    <a href="./articles/custom-domain-vs-netlify-app/index.html">独自ドメインは必要？netlify.appとの違い</a>
+    <p>無料URLと独自ドメインの違いを、見た目、費用、信頼感で整理します。</p>
+    <div class="signal-item-meta">
+      
+      <span>料金と安全</span>
+      <strong>55 IQ</strong>
+    </div>
+  </div>
+</li></ul>
+</div>
+      <div class="signal-links">
+        <a href="./category/ai-basics/index.html">もっと見る</a>
+        <a href="./rss.xml">RSS</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="topic-strip" aria-labelledby="topic-strip-title">
+  <h2 id="topic-strip-title">注目キーワード</h2>
+  <div><a href="./tag/ChatGPT/index.html">ChatGPT</a>
+<a href="./tag/AI%E6%B4%BB%E7%94%A8/index.html">AI活用</a>
+<a href="./tag/%E8%87%AA%E5%8B%95%E5%8C%96/index.html">自動化</a>
+<a href="./tag/AI%E5%85%A5%E9%96%80/index.html">AI入門</a>
+<a href="./tag/Codex/index.html">Codex</a>
+<a href="./tag/AIVIA/index.html">AIVIA</a>
+<a href="./tag/AI%E3%83%84%E3%83%BC%E3%83%AB/index.html">AIツール</a>
+<a href="./tag/Gemini/index.html">Gemini</a>
+<a href="./tag/SEO/index.html">SEO</a>
+<a href="./tag/%E3%82%B5%E3%82%A4%E3%83%88%E8%A8%AD%E8%A8%88/index.html">サイト設計</a>
+<a href="./tag/%E5%AE%89%E5%85%A8/index.html">安全</a>
+<a href="./tag/%E5%85%AC%E9%96%8B%E6%BA%96%E5%82%99/index.html">公開準備</a></div>
+</section>
+
+<section class="portal-layout">
+  <article class="top-story">
+    <a class="top-story-thumb" href="./articles/ai-site-publish-checklist/index.html" aria-label="AIでサイト公開まで進めるチェックリスト">
+      <img src="./assets/articles/thumb-digital-research.jpg" alt="デジタル調査をする人物の無料素材写真" loading="lazy">
+    </a>
+    <div class="top-story-main">
+      <span class="eyebrow">本日の注目</span>
+      <h1>AIでサイト公開まで進めるチェックリスト</h1>
+      <p>AIで作ったサイトを公開する前に見る項目をチェックリスト化します。</p>
+      <a class="button" href="./articles/ai-site-publish-checklist/index.html">記事を読む</a>
+    </div>
+  </article>
+  <section class="headline-panel" aria-labelledby="headline-title">
+    <h2 id="headline-title">新着ヘッドライン</h2>
+    <ul><li>
+  <a class="headline-thumb" href="./articles/ai-tool-comparison-checkpoints/index.html" aria-label="AIツール比較記事で見るべきポイント">
+  <img src="./assets/articles/external-link-scam-checklist.jpg" alt="スマートフォンを見る人物の無料素材写真" loading="lazy">
+</a>
+  <a class="headline-title" href="./articles/ai-tool-comparison-checkpoints/index.html">AIツール比較記事で見るべきポイント</a>
+</li>
+<li>
+  <a class="headline-thumb" href="./articles/ai-daily-writing-routine/index.html" aria-label="AIで記事を書く日次ルーティン、朝にやること夜にやること">
+  <img src="./assets/articles/affiliate-ad-disclosure-guide.jpg" alt="オンラインショッピング画面を見る人物の無料素材写真" loading="lazy">
+</a>
+  <a class="headline-title" href="./articles/ai-daily-writing-routine/index.html">AIで記事を書く日次ルーティン、朝にやること夜にやること</a>
+</li>
+<li>
+  <a class="headline-thumb" href="./articles/ai-category-design-before-writing/index.html" aria-label="AIで記事を増やす前に、カテゴリを決める理由">
+  <img src="./assets/articles/thumb-public-news-documents.jpg" alt="資料を確認する手元の無料素材写真" loading="lazy">
+</a>
+  <a class="headline-title" href="./articles/ai-category-design-before-writing/index.html">AIで記事を増やす前に、カテゴリを決める理由</a>
+</li>
+<li>
+  <a class="headline-thumb" href="./articles/aivia-site-concept/index.html" aria-label="AIVIAは何をするサイト？AIへの近道をやさしく作る">
+  <img src="./assets/articles/thumb-news-link-business-model.jpg" alt="ニュースとノートパソコンの無料素材写真" loading="lazy">
+</a>
+  <a class="headline-title" href="./articles/aivia-site-concept/index.html">AIVIAは何をするサイト？AIへの近道をやさしく作る</a>
+</li>
+<li>
+  <a class="headline-thumb" href="./articles/ai-practical-database-concept/index.html" aria-label="AI活用データベースとは？ニュースより残るサイトの作り方">
+  <img src="./assets/articles/thumb-search-lasting-article-types.jpg" alt="ノートパソコンで調べる人物の無料素材写真" loading="lazy">
+</a>
+  <a class="headline-title" href="./articles/ai-practical-database-concept/index.html">AI活用データベースとは？ニュースより残るサイトの作り方</a>
+</li>
+<li>
+  <a class="headline-thumb" href="./articles/ai-work-time-log/index.html" aria-label="AIで作業時間を記録すると、収益化の現実が見える">
+  <img src="./assets/articles/thumb-team-discussion-news.jpg" alt="チームで議論する人物の無料素材写真" loading="lazy">
+</a>
+  <a class="headline-title" href="./articles/ai-work-time-log/index.html">AIで作業時間を記録すると、収益化の現実が見える</a>
+</li></ul>
+  </section>
+  <aside class="ranking-panel" aria-labelledby="ranking-title">
+    <h2 id="ranking-title">AIVIAランキング</h2>
+    <ol><li class="has-thumb">
+  <span class="rank-number">1</span>
+  <a class="ranking-link" href="./articles/ai-site-publish-checklist/index.html">
+    <img src="./assets/articles/thumb-digital-research.jpg" alt="デジタル調査をする人物の無料素材写真" loading="lazy">
+    <strong>AIでサイト公開まで進めるチェックリスト</strong>
+  </a>
+</li>
+<li class="has-thumb">
+  <span class="rank-number">2</span>
+  <a class="ranking-link" href="./articles/ai-tool-comparison-checkpoints/index.html">
+    <img src="./assets/articles/external-link-scam-checklist.jpg" alt="スマートフォンを見る人物の無料素材写真" loading="lazy">
+    <strong>AIツール比較記事で見るべきポイント</strong>
+  </a>
+</li>
+<li class="has-thumb">
+  <span class="rank-number">3</span>
+  <a class="ranking-link" href="./articles/ai-daily-writing-routine/index.html">
+    <img src="./assets/articles/affiliate-ad-disclosure-guide.jpg" alt="オンラインショッピング画面を見る人物の無料素材写真" loading="lazy">
+    <strong>AIで記事を書く日次ルーティン、朝にやること夜にやること</strong>
+  </a>
+</li>
+<li class="">
+  <span class="rank-number">4</span>
+  <a class="ranking-link" href="./articles/ai-category-design-before-writing/index.html">
+    
+    <strong>AIで記事を増やす前に、カテゴリを決める理由</strong>
+  </a>
+</li>
+<li class="">
+  <span class="rank-number">5</span>
+  <a class="ranking-link" href="./articles/aivia-site-concept/index.html">
+    
+    <strong>AIVIAは何をするサイト？AIへの近道をやさしく作る</strong>
+  </a>
+</li>
+<li class="">
+  <span class="rank-number">6</span>
+  <a class="ranking-link" href="./articles/ai-practical-database-concept/index.html">
+    
+    <strong>AI活用データベースとは？ニュースより残るサイトの作り方</strong>
+  </a>
+</li>
+<li class="">
+  <span class="rank-number">7</span>
+  <a class="ranking-link" href="./articles/ai-work-time-log/index.html">
+    
+    <strong>AIで作業時間を記録すると、収益化の現実が見える</strong>
+  </a>
+</li>
+<li class="">
+  <span class="rank-number">8</span>
+  <a class="ranking-link" href="./articles/ai-prompt-reduce-mistakes/index.html">
+    
+    <strong>AIの間違いを減らす質問の書き方</strong>
+  </a>
+</li>
+<li class="">
+  <span class="rank-number">9</span>
+  <a class="ranking-link" href="./articles/ai-personal-data-check/index.html">
+    
+    <strong>AIに個人情報を入れる前に確認したいこと</strong>
+  </a>
+</li>
+<li class="">
+  <span class="rank-number">10</span>
+  <a class="ranking-link" href="./articles/ai-plan-price-check/index.html">
+    
+    <strong>AIの料金プランを比べるとき、月額だけで決めない</strong>
+  </a>
+</li></ol>
+  </aside>
+</section>
+
+<aside class="ad-slot ad-placeholder" aria-label="トップ広告">
+  <span>トップ広告</span>
+  <strong>AIVIA広告枠</strong>
+</aside>
+
+<section class="newsroom-layout">
+  <div class="news-boards">
+    <div class="section-title compact">
+      <h2>カテゴリ別ニュース</h2>
+    </div>
+    <div class="board-grid"><section class="news-board">
+  <div class="board-heading">
+    <h3>AI入門</h3>
+    <a href="./category/ai-basics/index.html">一覧</a>
+  </div>
+  <ul><li>
+  <a class="board-news-link" href="./articles/ai-prompt-reduce-mistakes/index.html">
+    <img src="./assets/articles/thumb-business-news-desk.jpg" alt="ビジネス資料とノートパソコンの無料素材写真" loading="lazy">
+    <span>AIの間違いを減らす質問の書き方</span>
+  </a>
+</li>
+<li>
+  <a class="board-news-link" href="./articles/ai-study-plan-weekly/index.html">
+    <img src="./assets/articles/thumb-public-news-documents.jpg" alt="資料を確認する手元の無料素材写真" loading="lazy">
+    <span>AIで勉強計画を作るなら、1週間単位から始める</span>
+  </a>
+</li>
+<li>
+  <a class="board-news-link" href="./articles/ai-meeting-notes-basic/index.html">
+    <img src="./assets/articles/thumb-news-link-business-model.jpg" alt="ニュースとノートパソコンの無料素材写真" loading="lazy">
+    <span>AIで議事録を作るとき、あとで困らない整理方法</span>
+  </a>
+</li>
+<li>
+  <a class="board-news-link" href="./articles/ai-email-writing-basic/index.html">
+    <img src="./assets/articles/thumb-search-lasting-article-types.jpg" alt="ノートパソコンで調べる人物の無料素材写真" loading="lazy">
+    <span>AIでメール文を書くとき、失礼にならない頼み方</span>
+  </a>
+</li></ul>
+</section>
+<section class="news-board">
+  <div class="board-heading">
+    <h3>ChatGPT活用</h3>
+    <a href="./category/chatgpt/index.html">一覧</a>
+  </div>
+  <ul><li>
+  <a class="board-news-link" href="./articles/chatgpt-connectors-file-search/index.html">
+    <img src="./assets/articles/thumb-public-news-documents.jpg" alt="資料を確認する手元の無料素材写真" loading="lazy">
+    <span>ChatGPT Connectorsとは？自分の資料を探してもらう前に知ること</span>
+  </a>
+</li>
+<li>
+  <a class="board-news-link" href="./articles/chatgpt-projects-beginner-guide/index.html">
+    <img src="./assets/articles/thumb-search-lasting-article-types.jpg" alt="ノートパソコンで調べる人物の無料素材写真" loading="lazy">
+    <span>ChatGPT Projectsとは？長く続く作業をまとめる箱として考える</span>
+  </a>
+</li></ul>
+</section>
+<section class="news-board">
+  <div class="board-heading">
+    <h3>Codex制作</h3>
+    <a href="./category/codex-build/index.html">一覧</a>
+  </div>
+  <ul><li>
+  <a class="board-news-link" href="./articles/ai-site-publish-checklist/index.html">
+    <img src="./assets/articles/thumb-digital-research.jpg" alt="デジタル調査をする人物の無料素材写真" loading="lazy">
+    <span>AIでサイト公開まで進めるチェックリスト</span>
+  </a>
+</li>
+<li>
+  <a class="board-news-link" href="./articles/netlify-free-publish-flow/index.html">
+    <img src="./assets/articles/thumb-business-news-desk.jpg" alt="ノートパソコンで公開作業を確認する人の無料素材写真" loading="lazy">
+    <span>Netlifyで無料公開する流れと注意点</span>
+  </a>
+</li>
+<li>
+  <a class="board-news-link" href="./articles/ai-link-check-before-publish/index.html">
+    <img src="./assets/articles/thumb-ad-pr-label-basics.jpg" alt="スマートフォンを見る人物の無料素材写真" loading="lazy">
+    <span>AIでリンク切れチェックはできる？公開前に見る場所</span>
+  </a>
+</li>
+<li>
+  <a class="board-news-link" href="./articles/codex-request-writing-guide/index.html">
+    <img src="./assets/articles/external-link-scam-checklist.jpg" alt="スマートフォンを見る人物の無料素材写真" loading="lazy">
+    <span>Codexでサイト修正を頼むときの書き方</span>
+  </a>
+</li></ul>
+</section>
+<section class="news-board">
+  <div class="board-heading">
+    <h3>自動化</h3>
+    <a href="./category/automation/index.html">一覧</a>
+  </div>
+  <ul><li>
+  <a class="board-news-link" href="./articles/ai-daily-writing-routine/index.html">
+    <img src="./assets/articles/affiliate-ad-disclosure-guide.jpg" alt="オンラインショッピング画面を見る人物の無料素材写真" loading="lazy">
+    <span>AIで記事を書く日次ルーティン、朝にやること夜にやること</span>
+  </a>
+</li>
+<li>
+  <a class="board-news-link" href="./articles/ai-category-design-before-writing/index.html">
+    <img src="./assets/articles/thumb-public-news-documents.jpg" alt="資料を確認する手元の無料素材写真" loading="lazy">
+    <span>AIで記事を増やす前に、カテゴリを決める理由</span>
+  </a>
+</li>
+<li>
+  <a class="board-news-link" href="./articles/ai-daily-topic-collection/index.html">
+    <img src="./assets/articles/thumb-team-discussion-news.jpg" alt="チームで議論する人物の無料素材写真" loading="lazy">
+    <span>AIで毎朝ネタを集める仕組みを作る考え方</span>
+  </a>
+</li>
+<li>
+  <a class="board-news-link" href="./articles/ai-feature-article-template/index.html">
+    <img src="./assets/articles/thumb-business-news-desk.jpg" alt="ビジネス資料とノートパソコンの無料素材写真" loading="lazy">
+    <span>AIツールの新機能を記事にするテンプレート</span>
+  </a>
+</li></ul>
+</section>
+<section class="news-board">
+  <div class="board-heading">
+    <h3>AIツール比較</h3>
+    <a href="./category/tool-compare/index.html">一覧</a>
+  </div>
+  <ul><li>
+  <a class="board-news-link" href="./articles/ai-tool-comparison-checkpoints/index.html">
+    <img src="./assets/articles/external-link-scam-checklist.jpg" alt="スマートフォンを見る人物の無料素材写真" loading="lazy">
+    <span>AIツール比較記事で見るべきポイント</span>
+  </a>
+</li>
+<li>
+  <a class="board-news-link" href="./articles/chatgpt-gemini-claude-first-choice/index.html">
+    <img src="./assets/articles/thumb-search-lasting-article-types.jpg" alt="ノートパソコンで調べる人物の無料素材写真" loading="lazy">
+    <span>ChatGPT、Gemini、Claude、最初に使うならどれ？</span>
+  </a>
+</li>
+<li>
+  <a class="board-news-link" href="./articles/claude-artifacts-basic/index.html">
+    <img src="./assets/articles/thumb-team-discussion-news.jpg" alt="チームで議論する人物の無料素材写真" loading="lazy">
+    <span>Claude Artifactsとは？AIが作ったものを横で見ながら直す感覚</span>
+  </a>
+</li>
+<li>
+  <a class="board-news-link" href="./articles/gemini-gems-custom-ai/index.html">
+    <img src="./assets/articles/thumb-business-news-desk.jpg" alt="ビジネス資料とノートパソコンの無料素材写真" loading="lazy">
+    <span>Gemini Gemsとは？自分専用のAI係を作る考え方</span>
+  </a>
+</li></ul>
+</section>
+<section class="news-board">
+  <div class="board-heading">
+    <h3>AI副業</h3>
+    <a href="./category/side-business/index.html">一覧</a>
+  </div>
+  <ul><li>
+  <a class="board-news-link" href="./articles/ai-300k-first-metrics/index.html">
+    <img src="./assets/articles/external-link-scam-checklist.jpg" alt="スマートフォンを見る人物の無料素材写真" loading="lazy">
+    <span>AIで月30万円を目指すなら、最初に見るべき数字</span>
+  </a>
+</li>
+<li>
+  <a class="board-news-link" href="./articles/ai-side-business-first-three/index.html">
+    <img src="./assets/articles/affiliate-ad-disclosure-guide.jpg" alt="オンラインショッピング画面を見る人物の無料素材写真" loading="lazy">
+    <span>AIで副業を始める前に、最初に決める3つのこと</span>
+  </a>
+</li>
+<li>
+  <a class="board-news-link" href="./articles/ai-seo-evergreen-theme/index.html">
+    <img src="./assets/articles/thumb-public-news-documents.jpg" alt="資料を確認する手元の無料素材写真" loading="lazy">
+    <span>AIでSEO記事を作るとき、検索され続けるテーマの選び方</span>
+  </a>
+</li>
+<li>
+  <a class="board-news-link" href="./articles/adsense-before-review-checklist/index.html">
+    <img src="./assets/articles/thumb-ad-pr-label-basics.jpg" alt="スマートフォンを見る人物の無料素材写真" loading="lazy">
+    <span>AdSense審査前に見ること、記事数より大事な基本</span>
+  </a>
+</li></ul>
+</section>
+<section class="news-board">
+  <div class="board-heading">
+    <h3>料金と安全</h3>
+    <a href="./category/money-safety/index.html">一覧</a>
+  </div>
+  <ul><li>
+  <a class="board-news-link" href="./articles/ai-personal-data-check/index.html">
+    <img src="./assets/articles/thumb-digital-research.jpg" alt="デジタル調査をする人物の無料素材写真" loading="lazy">
+    <span>AIに個人情報を入れる前に確認したいこと</span>
+  </a>
+</li>
+<li>
+  <a class="board-news-link" href="./articles/ai-plan-price-check/index.html">
+    <img src="./assets/articles/external-link-scam-checklist.jpg" alt="スマートフォンを見る人物の無料素材写真" loading="lazy">
+    <span>AIの料金プランを比べるとき、月額だけで決めない</span>
+  </a>
+</li>
+<li>
+  <a class="board-news-link" href="./articles/ai-money-consult-privacy/index.html">
+    <img src="./assets/articles/affiliate-ad-disclosure-guide.jpg" alt="オンラインショッピング画面を見る人物の無料素材写真" loading="lazy">
+    <span>AIに家計相談をするとき、入れていい情報と危ない情報</span>
+  </a>
+</li>
+<li>
+  <a class="board-news-link" href="./articles/ai-image-vs-free-stock-photo/index.html">
+    <img src="./assets/articles/thumb-news-link-business-model.jpg" alt="ニュースとノートパソコンの無料素材写真" loading="lazy">
+    <span>AIで画像を作る前に、無料素材写真を使う選択肢</span>
+  </a>
+</li></ul>
+</section>
+<section class="news-board">
+  <div class="board-heading">
+    <h3>実践記録</h3>
+    <a href="./category/case-log/index.html">一覧</a>
+  </div>
+  <ul><li>
+  <a class="board-news-link" href="./articles/aivia-site-concept/index.html">
+    <img src="./assets/articles/thumb-news-link-business-model.jpg" alt="ニュースとノートパソコンの無料素材写真" loading="lazy">
+    <span>AIVIAは何をするサイト？AIへの近道をやさしく作る</span>
+  </a>
+</li>
+<li>
+  <a class="board-news-link" href="./articles/ai-practical-database-concept/index.html">
+    <img src="./assets/articles/thumb-search-lasting-article-types.jpg" alt="ノートパソコンで調べる人物の無料素材写真" loading="lazy">
+    <span>AI活用データベースとは？ニュースより残るサイトの作り方</span>
+  </a>
+</li>
+<li>
+  <a class="board-news-link" href="./articles/ai-work-time-log/index.html">
+    <img src="./assets/articles/thumb-team-discussion-news.jpg" alt="チームで議論する人物の無料素材写真" loading="lazy">
+    <span>AIで作業時間を記録すると、収益化の現実が見える</span>
+  </a>
+</li>
+<li>
+  <a class="board-news-link" href="./articles/chatgpt-codex-homepage-build-test/index.html">
+    <img src="./assets/articles/thumb-digital-research.jpg" alt="デジタル調査をする人物の無料素材写真" loading="lazy">
+    <span>ChatGPTとCodexでホームページは作れる？実際に試してわかったこと</span>
+  </a>
+</li></ul>
+</section></div>
+  </div>
+</section>
+
+<div class="section-title">
+  <h2>ニュース</h2>
+  <a href="./rss.xml">RSS</a>
+</div>
+<section class="grid"><article class="article-card">
+  <a class="article-card-thumb" href="./articles/ai-tool-comparison-checkpoints/index.html" aria-label="AIツール比較記事で見るべきポイント">
+    <img src="./assets/articles/external-link-scam-checklist.jpg" alt="スマートフォンを見る人物の無料素材写真" loading="lazy">
+  </a>
+  <div class="article-card-content">
+    <div class="meta">
+      <span class="tag">AIツール比較</span>
+      <time datetime="2026-05-19T18:30:00+09:00">2026/05/19 18:30</time>
+    </div>
+    <h3><a href="./articles/ai-tool-comparison-checkpoints/index.html">AIツール比較記事で見るべきポイント</a></h3>
+    <p>AIツール比較記事を読むとき、料金、使える機能、向いている人を見る理由を整理します。</p>
+  </div>
+</article>
+<article class="article-card">
+  <a class="article-card-thumb" href="./articles/ai-daily-writing-routine/index.html" aria-label="AIで記事を書く日次ルーティン、朝にやること夜にやること">
+    <img src="./assets/articles/affiliate-ad-disclosure-guide.jpg" alt="オンラインショッピング画面を見る人物の無料素材写真" loading="lazy">
+  </a>
+  <div class="article-card-content">
+    <div class="meta">
+      <span class="tag">自動化</span>
+      <time datetime="2026-05-19T18:20:00+09:00">2026/05/19 18:20</time>
+    </div>
+    <h3><a href="./articles/ai-daily-writing-routine/index.html">AIで記事を書く日次ルーティン、朝にやること夜にやること</a></h3>
+    <p>AI実用メディアを続けるための日次ルーティンを整理します。</p>
+  </div>
+</article>
+<article class="article-card">
+  <a class="article-card-thumb" href="./articles/ai-category-design-before-writing/index.html" aria-label="AIで記事を増やす前に、カテゴリを決める理由">
+    <img src="./assets/articles/thumb-public-news-documents.jpg" alt="資料を確認する手元の無料素材写真" loading="lazy">
+  </a>
+  <div class="article-card-content">
+    <div class="meta">
+      <span class="tag">自動化</span>
+      <time datetime="2026-05-19T18:10:00+09:00">2026/05/19 18:10</time>
+    </div>
+    <h3><a href="./articles/ai-category-design-before-writing/index.html">AIで記事を増やす前に、カテゴリを決める理由</a></h3>
+    <p>AI実用記事を増やす前に、カテゴリ設計を決める意味を説明します。</p>
+  </div>
+</article>
+<article class="article-card">
+  <a class="article-card-thumb" href="./articles/aivia-site-concept/index.html" aria-label="AIVIAは何をするサイト？AIへの近道をやさしく作る">
+    <img src="./assets/articles/thumb-news-link-business-model.jpg" alt="ニュースとノートパソコンの無料素材写真" loading="lazy">
+  </a>
+  <div class="article-card-content">
+    <div class="meta">
+      <span class="tag">実践記録</span>
+      <time datetime="2026-05-19T18:00:00+09:00">2026/05/19 18:00</time>
+    </div>
+    <h3><a href="./articles/aivia-site-concept/index.html">AIVIAは何をするサイト？AIへの近道をやさしく作る</a></h3>
+    <p>AIVIAという名前の由来と、AI初心者向け実用メディアとしての方針をまとめます。</p>
+  </div>
+</article>
+<article class="article-card">
+  <a class="article-card-thumb" href="./articles/ai-practical-database-concept/index.html" aria-label="AI活用データベースとは？ニュースより残るサイトの作り方">
+    <img src="./assets/articles/thumb-search-lasting-article-types.jpg" alt="ノートパソコンで調べる人物の無料素材写真" loading="lazy">
+  </a>
+  <div class="article-card-content">
+    <div class="meta">
+      <span class="tag">実践記録</span>
+      <time datetime="2026-05-19T17:30:00+09:00">2026/05/19 17:30</time>
+    </div>
+    <h3><a href="./articles/ai-practical-database-concept/index.html">AI活用データベースとは？ニュースより残るサイトの作り方</a></h3>
+    <p>AIVIAがニュースサイトではなくAI活用データベースを目指す理由を説明します。</p>
+  </div>
+</article>
+<article class="article-card">
+  <a class="article-card-thumb" href="./articles/ai-work-time-log/index.html" aria-label="AIで作業時間を記録すると、収益化の現実が見える">
+    <img src="./assets/articles/thumb-team-discussion-news.jpg" alt="チームで議論する人物の無料素材写真" loading="lazy">
+  </a>
+  <div class="article-card-content">
+    <div class="meta">
+      <span class="tag">実践記録</span>
+      <time datetime="2026-05-19T17:20:00+09:00">2026/05/19 17:20</time>
+    </div>
+    <h3><a href="./articles/ai-work-time-log/index.html">AIで作業時間を記録すると、収益化の現実が見える</a></h3>
+    <p>AI副業やメディア運営で、作業時間を記録する意味を整理します。</p>
+  </div>
+</article>
+<article class="article-card">
+  <a class="article-card-thumb" href="./articles/ai-prompt-reduce-mistakes/index.html" aria-label="AIの間違いを減らす質問の書き方">
+    <img src="./assets/articles/thumb-business-news-desk.jpg" alt="ビジネス資料とノートパソコンの無料素材写真" loading="lazy">
+  </a>
+  <div class="article-card-content">
+    <div class="meta">
+      <span class="tag">AI入門</span>
+      <time datetime="2026-05-19T17:10:00+09:00">2026/05/19 17:10</time>
+    </div>
+    <h3><a href="./articles/ai-prompt-reduce-mistakes/index.html">AIの間違いを減らす質問の書き方</a></h3>
+    <p>AIの回答ミスを減らすために、条件、目的、確認方法を入れて質問する方法を説明します。</p>
+  </div>
+</article>
+<article class="article-card">
+  <a class="article-card-thumb" href="./articles/ai-personal-data-check/index.html" aria-label="AIに個人情報を入れる前に確認したいこと">
+    <img src="./assets/articles/thumb-digital-research.jpg" alt="デジタル調査をする人物の無料素材写真" loading="lazy">
+  </a>
+  <div class="article-card-content">
+    <div class="meta">
+      <span class="tag">料金と安全</span>
+      <time datetime="2026-05-19T17:00:00+09:00">2026/05/19 17:00</time>
+    </div>
+    <h3><a href="./articles/ai-personal-data-check/index.html">AIに個人情報を入れる前に確認したいこと</a></h3>
+    <p>AIへ個人情報や仕事の資料を入れる前に、確認したい基本を整理します。</p>
+  </div>
+</article>
+<article class="article-card">
+  <a class="article-card-thumb" href="./articles/ai-plan-price-check/index.html" aria-label="AIの料金プランを比べるとき、月額だけで決めない">
+    <img src="./assets/articles/thumb-ad-pr-label-basics.jpg" alt="スマートフォンを見る人物の無料素材写真" loading="lazy">
+  </a>
+  <div class="article-card-content">
+    <div class="meta">
+      <span class="tag">料金と安全</span>
+      <time datetime="2026-05-19T16:30:00+09:00">2026/05/19 16:30</time>
+    </div>
+    <h3><a href="./articles/ai-plan-price-check/index.html">AIの料金プランを比べるとき、月額だけで決めない</a></h3>
+    <p>AIサービスの料金を見るとき、月額、回数、必要な機能を分けて考えます。</p>
+  </div>
+</article></section>
+
+<div class="section-title">
+  <h2>まず読まれる記事</h2>
+</div>
+<section class="grid"><article class="article-card">
+  <a class="article-card-thumb" href="./articles/google-analytics-first-metrics/index.html" aria-label="Google Analyticsは何を見る道具？公開後に最初に見る数字">
+    <img src="./assets/articles/thumb-search-lasting-article-types.jpg" alt="ノートパソコンで調べる人物の無料素材写真" loading="lazy">
+  </a>
+  <div class="article-card-content">
+    <div class="meta">
+      <span class="tag">料金と安全</span>
+      <time datetime="2026-05-19T11:30:00+09:00">2026/05/19 11:30</time>
+    </div>
+    <h3><a href="./articles/google-analytics-first-metrics/index.html">Google Analyticsは何を見る道具？公開後に最初に見る数字</a></h3>
+    <p>Google Analyticsを、公開後にどの記事が読まれているかを見る道具として説明します。</p>
+  </div>
+</article>
+<article class="article-card">
+  <a class="article-card-thumb" href="./articles/custom-domain-vs-netlify-app/index.html" aria-label="独自ドメインは必要？netlify.appとの違い">
+    <img src="./assets/articles/thumb-team-discussion-news.jpg" alt="チームで議論する人物の無料素材写真" loading="lazy">
+  </a>
+  <div class="article-card-content">
+    <div class="meta">
+      <span class="tag">料金と安全</span>
+      <time datetime="2026-05-19T11:20:00+09:00">2026/05/19 11:20</time>
+    </div>
+    <h3><a href="./articles/custom-domain-vs-netlify-app/index.html">独自ドメインは必要？netlify.appとの違い</a></h3>
+    <p>無料URLと独自ドメインの違いを、見た目、費用、信頼感で整理します。</p>
+  </div>
+</article>
+<article class="article-card">
+  <a class="article-card-thumb" href="./articles/netlify-free-publish-flow/index.html" aria-label="Netlifyで無料公開する流れと注意点">
+    <img src="./assets/articles/thumb-business-news-desk.jpg" alt="ノートパソコンで公開作業を確認する人の無料素材写真" loading="lazy">
+  </a>
+  <div class="article-card-content">
+    <div class="meta">
+      <span class="tag">Codex制作</span>
+      <time datetime="2026-05-19T11:10:00+09:00">2026/05/19 11:10</time>
+    </div>
+    <h3><a href="./articles/netlify-free-publish-flow/index.html">Netlifyで無料公開する流れと注意点</a></h3>
+    <p>Netlifyでサイトを無料公開するときの流れを、公式情報をもとに短く整理します。</p>
+  </div>
+</article>
+<article class="article-card">
+  <a class="article-card-thumb" href="./articles/ai-link-check-before-publish/index.html" aria-label="AIでリンク切れチェックはできる？公開前に見る場所">
+    <img src="./assets/articles/thumb-digital-research.jpg" alt="デジタル調査をする人物の無料素材写真" loading="lazy">
+  </a>
+  <div class="article-card-content">
+    <div class="meta">
+      <span class="tag">Codex制作</span>
+      <time datetime="2026-05-19T11:00:00+09:00">2026/05/19 11:00</time>
+    </div>
+    <h3><a href="./articles/ai-link-check-before-publish/index.html">AIでリンク切れチェックはできる？公開前に見る場所</a></h3>
+    <p>公開前にAIとスクリプトでリンク切れを確認する考え方をまとめます。</p>
+  </div>
+</article>
+<article class="article-card">
+  <a class="article-card-thumb" href="./articles/codex-request-writing-guide/index.html" aria-label="Codexでサイト修正を頼むときの書き方">
+    <img src="./assets/articles/external-link-scam-checklist.jpg" alt="スマートフォンを見る人物の無料素材写真" loading="lazy">
+  </a>
+  <div class="article-card-content">
+    <div class="meta">
+      <span class="tag">Codex制作</span>
+      <time datetime="2026-05-19T10:30:00+09:00">2026/05/19 10:30</time>
+    </div>
+    <h3><a href="./articles/codex-request-writing-guide/index.html">Codexでサイト修正を頼むときの書き方</a></h3>
+    <p>Codexへ修正を頼むとき、どう伝えると失敗しにくいかを実例ベースで整理します。</p>
+  </div>
+</article>
+<article class="article-card">
+  <a class="article-card-thumb" href="./articles/codex-beginner-what-can-ask/index.html" aria-label="Codexとは？プログラミングが苦手でも何を頼めるのか">
+    <img src="./assets/articles/affiliate-ad-disclosure-guide.jpg" alt="オンラインショッピング画面を見る人物の無料素材写真" loading="lazy">
+  </a>
+  <div class="article-card-content">
+    <div class="meta">
+      <span class="tag">Codex制作</span>
+      <time datetime="2026-05-19T10:20:00+09:00">2026/05/19 10:20</time>
+    </div>
+    <h3><a href="./articles/codex-beginner-what-can-ask/index.html">Codexとは？プログラミングが苦手でも何を頼めるのか</a></h3>
+    <p>Codexを、コードを書く人だけでなくサイトを作りたい普通の人向けに説明します。</p>
+  </div>
+</article></section>
+
+<div class="section-title">
+  <h2>カテゴリ</h2>
+</div>
+<section class="grid"><section class="category-card">
+  <a class="category-card-thumb" href="./articles/ai-prompt-reduce-mistakes/index.html" aria-label="AIの間違いを減らす質問の書き方">
+  <img src="./assets/articles/thumb-business-news-desk.jpg" alt="ビジネス資料とノートパソコンの無料素材写真" loading="lazy">
+</a>
+  <div class="category-card-body">
+    <h3><a href="./category/ai-basics/index.html">AI入門</a></h3>
+    <p>AIを初めて使う人向けに、できること、限界、最初の使い方をやさしく整理します。</p>
+    <div class="category-latest"><a href="./articles/ai-prompt-reduce-mistakes/index.html">AIの間違いを減らす質問の書き方</a></div>
+  </div>
+</section>
+<section class="category-card">
+  <a class="category-card-thumb" href="./articles/chatgpt-connectors-file-search/index.html" aria-label="ChatGPT Connectorsとは？自分の資料を探してもらう前に知ること">
+  <img src="./assets/articles/thumb-public-news-documents.jpg" alt="資料を確認する手元の無料素材写真" loading="lazy">
+</a>
+  <div class="category-card-body">
+    <h3><a href="./category/chatgpt/index.html">ChatGPT活用</a></h3>
+    <p>ChatGPTの使い方、Projects、Tasks、Connectorsなどを実用目線で扱います。</p>
+    <div class="category-latest"><a href="./articles/chatgpt-connectors-file-search/index.html">ChatGPT Connectorsとは？自分の資料を探してもらう前に知ること</a></div>
+  </div>
+</section>
+<section class="category-card">
+  <a class="category-card-thumb" href="./articles/ai-site-publish-checklist/index.html" aria-label="AIでサイト公開まで進めるチェックリスト">
+  <img src="./assets/articles/thumb-digital-research.jpg" alt="デジタル調査をする人物の無料素材写真" loading="lazy">
+</a>
+  <div class="category-card-body">
+    <h3><a href="./category/codex-build/index.html">Codex制作</a></h3>
+    <p>Codexでサイト制作、修正、チェック、自動化を進める方法を記録します。</p>
+    <div class="category-latest"><a href="./articles/ai-site-publish-checklist/index.html">AIでサイト公開まで進めるチェックリスト</a></div>
+  </div>
+</section>
+<section class="category-card">
+  <a class="category-card-thumb" href="./articles/ai-daily-writing-routine/index.html" aria-label="AIで記事を書く日次ルーティン、朝にやること夜にやること">
+  <img src="./assets/articles/affiliate-ad-disclosure-guide.jpg" alt="オンラインショッピング画面を見る人物の無料素材写真" loading="lazy">
+</a>
+  <div class="category-card-body">
+    <h3><a href="./category/automation/index.html">自動化</a></h3>
+    <p>毎日の作業、情報収集、記事化、公開準備をAIで軽くする手順をまとめます。</p>
+    <div class="category-latest"><a href="./articles/ai-daily-writing-routine/index.html">AIで記事を書く日次ルーティン、朝にやること夜にやること</a></div>
+  </div>
+</section>
+<section class="category-card">
+  <a class="category-card-thumb" href="./articles/ai-tool-comparison-checkpoints/index.html" aria-label="AIツール比較記事で見るべきポイント">
+  <img src="./assets/articles/external-link-scam-checklist.jpg" alt="スマートフォンを見る人物の無料素材写真" loading="lazy">
+</a>
+  <div class="category-card-body">
+    <h3><a href="./category/tool-compare/index.html">AIツール比較</a></h3>
+    <p>ChatGPT、Gemini、Claudeなどを普通の人の使いやすさで比べます。</p>
+    <div class="category-latest"><a href="./articles/ai-tool-comparison-checkpoints/index.html">AIツール比較記事で見るべきポイント</a></div>
+  </div>
+</section>
+<section class="category-card">
+  <a class="category-card-thumb" href="./articles/ai-300k-first-metrics/index.html" aria-label="AIで月30万円を目指すなら、最初に見るべき数字">
+  <img src="./assets/articles/thumb-ad-pr-label-basics.jpg" alt="スマートフォンを見る人物の無料素材写真" loading="lazy">
+</a>
+  <div class="category-card-body">
+    <h3><a href="./category/side-business/index.html">AI副業</a></h3>
+    <p>AIを使った副業、メディア運営、収益化の考え方を現実的に整理します。</p>
+    <div class="category-latest"><a href="./articles/ai-300k-first-metrics/index.html">AIで月30万円を目指すなら、最初に見るべき数字</a></div>
+  </div>
+</section>
+<section class="category-card">
+  <a class="category-card-thumb" href="./articles/ai-personal-data-check/index.html" aria-label="AIに個人情報を入れる前に確認したいこと">
+  <img src="./assets/articles/thumb-household-news-money-guide.jpg" alt="家計管理をする手元の無料素材写真" loading="lazy">
+</a>
+  <div class="category-card-body">
+    <h3><a href="./category/money-safety/index.html">料金と安全</a></h3>
+    <p>有料プラン、個人情報、著作権、広告審査など、始める前の不安を整理します。</p>
+    <div class="category-latest"><a href="./articles/ai-personal-data-check/index.html">AIに個人情報を入れる前に確認したいこと</a></div>
+  </div>
+</section>
+<section class="category-card">
+  <a class="category-card-thumb" href="./articles/aivia-site-concept/index.html" aria-label="AIVIAは何をするサイト？AIへの近道をやさしく作る">
+  <img src="./assets/articles/thumb-news-link-business-model.jpg" alt="ニュースとノートパソコンの無料素材写真" loading="lazy">
+</a>
+  <div class="category-card-body">
+    <h3><a href="./category/case-log/index.html">実践記録</a></h3>
+    <p>AIVIAを作りながら試したこと、失敗したこと、次に直すことを記録します。</p>
+    <div class="category-latest"><a href="./articles/aivia-site-concept/index.html">AIVIAは何をするサイト？AIへの近道をやさしく作る</a></div>
+  </div>
+</section></section>
+
+<script type="application/json" id="topiq-search-index">[{"title":"AIでサイト公開まで進めるチェックリスト","summary":"AIで作ったサイトを公開する前に見る項目をチェックリスト化します。","category":"Codex制作","tags":["公開準備","チェックリスト"],"url":"./articles/ai-site-publish-checklist/index.html"},{"title":"AIツール比較記事で見るべきポイント","summary":"AIツール比較記事を読むとき、料金、使える機能、向いている人を見る理由を整理します。","category":"AIツール比較","tags":["比較","AIツール"],"url":"./articles/ai-tool-comparison-checkpoints/index.html"},{"title":"AIで記事を書く日次ルーティン、朝にやること夜にやること","summary":"AI実用メディアを続けるための日次ルーティンを整理します。","category":"自動化","tags":["運用","自動化"],"url":"./articles/ai-daily-writing-routine/index.html"},{"title":"AIで記事を増やす前に、カテゴリを決める理由","summary":"AI実用記事を増やす前に、カテゴリ設計を決める意味を説明します。","category":"自動化","tags":["カテゴリ","サイト設計"],"url":"./articles/ai-category-design-before-writing/index.html"},{"title":"AIVIAは何をするサイト？AIへの近道をやさしく作る","summary":"AIVIAという名前の由来と、AI初心者向け実用メディアとしての方針をまとめます。","category":"実践記録","tags":["AIVIA","方針"],"url":"./articles/aivia-site-concept/index.html"},{"title":"AI活用データベースとは？ニュースより残るサイトの作り方","summary":"AIVIAがニュースサイトではなくAI活用データベースを目指す理由を説明します。","category":"実践記録","tags":["AIVIA","サイト設計"],"url":"./articles/ai-practical-database-concept/index.html"},{"title":"AIで作業時間を記録すると、収益化の現実が見える","summary":"AI副業やメディア運営で、作業時間を記録する意味を整理します。","category":"実践記録","tags":["実践記録","作業時間"],"url":"./articles/ai-work-time-log/index.html"},{"title":"AIの間違いを減らす質問の書き方","summary":"AIの回答ミスを減らすために、条件、目的、確認方法を入れて質問する方法を説明します。","category":"AI入門","tags":["プロンプト","AI入門"],"url":"./articles/ai-prompt-reduce-mistakes/index.html"},{"title":"AIに個人情報を入れる前に確認したいこと","summary":"AIへ個人情報や仕事の資料を入れる前に、確認したい基本を整理します。","category":"料金と安全","tags":["安全","個人情報"],"url":"./articles/ai-personal-data-check/index.html"},{"title":"AIの料金プランを比べるとき、月額だけで決めない","summary":"AIサービスの料金を見るとき、月額、回数、必要な機能を分けて考えます。","category":"料金と安全","tags":["料金","AIツール"],"url":"./articles/ai-plan-price-check/index.html"},{"title":"AIに家計相談をするとき、入れていい情報と危ない情報","summary":"AIにお金の相談をするとき、個人情報を入れすぎないための考え方を整理します。","category":"料金と安全","tags":["安全","家計"],"url":"./articles/ai-money-consult-privacy/index.html"},{"title":"AIで勉強計画を作るなら、1週間単位から始める","summary":"AIで勉強計画を作るとき、長期計画より1週間単位が続きやすい理由を説明します。","category":"AI入門","tags":["勉強","AI活用"],"url":"./articles/ai-study-plan-weekly/index.html"},{"title":"AIで議事録を作るとき、あとで困らない整理方法","summary":"AIで議事録を作るとき、決定事項、宿題、期限を分ける方法をまとめます。","category":"AI入門","tags":["議事録","AI活用"],"url":"./articles/ai-meeting-notes-basic/index.html"},{"title":"AIでメール文を書くとき、失礼にならない頼み方","summary":"AIにメール文を作らせるとき、相手、目的、温度感を伝える重要性を説明します。","category":"AI入門","tags":["メール","AI活用"],"url":"./articles/ai-email-writing-basic/index.html"},{"title":"AIで毎朝ネタを集める仕組みを作る考え方","summary":"AI実用メディアで毎朝ネタを集めるときの情報源と分類方法を整理します。","category":"自動化","tags":["自動化","ネタ集め"],"url":"./articles/ai-daily-topic-collection/index.html"},{"title":"AIツールの新機能を記事にするテンプレート","summary":"新しいAI機能を見つけたとき、記事へ変換する型を整理します。","category":"自動化","tags":["記事テンプレート","自動化"],"url":"./articles/ai-feature-article-template/index.html"},{"title":"AIでニュースを拾うより、使える形に直す方が価値になる","summary":"AIニュースをそのまま追うのではなく、普通の人が使える形へ変える考え方を整理します。","category":"自動化","tags":["AIニュース","実用化"],"url":"./articles/ai-news-to-practical-guide/index.html"},{"title":"AIで月30万円を目指すなら、最初に見るべき数字","summary":"AIメディアで月30万円を狙う前に、記事数、アクセス、広告単価の考え方を整理します。","category":"AI副業","tags":["収益化","月30万円"],"url":"./articles/ai-300k-first-metrics/index.html"},{"title":"AIで副業を始める前に、最初に決める3つのこと","summary":"AI副業を始めたい人が、ツールより先に決めるべき目的、時間、売り方を整理します。","category":"AI副業","tags":["AI副業","初心者"],"url":"./articles/ai-side-business-first-three/index.html"},{"title":"AIでSEO記事を作るとき、検索され続けるテーマの選び方","summary":"AI実用メディアで、短いニュースではなく長く読まれる記事を作る考え方を整理します。","category":"AI副業","tags":["SEO","記事設計"],"url":"./articles/ai-seo-evergreen-theme/index.html"},{"title":"AIで画像を作る前に、無料素材写真を使う選択肢","summary":"画像生成と無料素材写真の違いを、記事運営の安全性から整理します。","category":"料金と安全","tags":["画像","無料素材"],"url":"./articles/ai-image-vs-free-stock-photo/index.html"},{"title":"ChatGPT、Gemini、Claude、最初に使うならどれ？","summary":"代表的なAIツールを、初心者が最初に何で選べばいいか整理します。","category":"AIツール比較","tags":["AIツール比較","初心者"],"url":"./articles/chatgpt-gemini-claude-first-choice/index.html"},{"title":"Claude Artifactsとは？AIが作ったものを横で見ながら直す感覚","summary":"Claude Artifactsを、コードや資料を画面横で確認しながら作る機能として説明します。","category":"AIツール比較","tags":["Claude","Artifacts"],"url":"./articles/claude-artifacts-basic/index.html"},{"title":"Gemini Gemsとは？自分専用のAI係を作る考え方","summary":"Gemini Gemsを、自分用の役割を持つAIとしてどう使うか整理します。","category":"AIツール比較","tags":["Gemini","Gems"],"url":"./articles/gemini-gems-custom-ai/index.html"},{"title":"Gemini Deep Researchは何が便利？調べものを任せる前の注意点","summary":"Gemini Deep Researchを、調べものレポートを作る機能として初心者向けに整理します。","category":"AIツール比較","tags":["Gemini","調査"],"url":"./articles/gemini-deep-research-basic/index.html"},{"title":"AIの答えをそのまま信じないための確認方法","summary":"AIの回答を使う前に、日付、出典、公式情報を確認する基本を説明します。","category":"AI入門","tags":["AI入門","確認"],"url":"./articles/ai-answer-check-basics/index.html"},{"title":"AIでブログ記事を書くとき、丸写しにならない作り方","summary":"AIで記事を書くとき、元情報の丸写しを避けて自分の体験や判断を入れる方法をまとめます。","category":"AI入門","tags":["記事作成","AI活用"],"url":"./articles/ai-writing-not-copy/index.html"},{"title":"AdSense審査前に見ること、記事数より大事な基本","summary":"AdSense審査前に、記事数だけでなく必須ページや独自性を見る理由を整理します。","category":"AI副業","tags":["AdSense","収益化"],"url":"./articles/adsense-before-review-checklist/index.html"},{"title":"Search Consoleは何をする場所？Googleにサイトを知らせる手順","summary":"Search Consoleでサイトを登録し、sitemap.xmlを送る意味をやさしく整理します。","category":"料金と安全","tags":["Search Console","SEO"],"url":"./articles/search-console-sitemap-basic/index.html"},{"title":"Google Analyticsは何を見る道具？公開後に最初に見る数字","summary":"Google Analyticsを、公開後にどの記事が読まれているかを見る道具として説明します。","category":"料金と安全","tags":["Analytics","計測"],"url":"./articles/google-analytics-first-metrics/index.html"},{"title":"独自ドメインは必要？netlify.appとの違い","summary":"無料URLと独自ドメインの違いを、見た目、費用、信頼感で整理します。","category":"料金と安全","tags":["ドメイン","公開"],"url":"./articles/custom-domain-vs-netlify-app/index.html"},{"title":"Netlifyで無料公開する流れと注意点","summary":"Netlifyでサイトを無料公開するときの流れを、公式情報をもとに短く整理します。","category":"Codex制作","tags":["Netlify","無料公開","静的サイト"],"url":"./articles/netlify-free-publish-flow/index.html"},{"title":"AIでリンク切れチェックはできる？公開前に見る場所","summary":"公開前にAIとスクリプトでリンク切れを確認する考え方をまとめます。","category":"Codex制作","tags":["公開準備","品質チェック"],"url":"./articles/ai-link-check-before-publish/index.html"},{"title":"Codexでサイト修正を頼むときの書き方","summary":"Codexへ修正を頼むとき、どう伝えると失敗しにくいかを実例ベースで整理します。","category":"Codex制作","tags":["Codex","依頼文"],"url":"./articles/codex-request-writing-guide/index.html"},{"title":"Codexとは？プログラミングが苦手でも何を頼めるのか","summary":"Codexを、コードを書く人だけでなくサイトを作りたい普通の人向けに説明します。","category":"Codex制作","tags":["Codex","AI制作"],"url":"./articles/codex-beginner-what-can-ask/index.html"},{"title":"ChatGPT Connectorsとは？自分の資料を探してもらう前に知ること","summary":"ChatGPT Connectorsで外部サービスの情報を扱うとき、便利さと注意点を整理します。","category":"ChatGPT活用","tags":["ChatGPT","Connectors","資料整理"],"url":"./articles/chatgpt-connectors-file-search/index.html"},{"title":"ChatGPT Tasksで何ができる？毎日の確認をAIに頼む考え方","summary":"ChatGPT Tasksを使うと、毎日の確認やリマインドをどこまで任せられるかを整理します。","category":"自動化","tags":["ChatGPT","Tasks","自動化"],"url":"./articles/chatgpt-tasks-daily-automation/index.html"},{"title":"ChatGPT Projectsとは？長く続く作業をまとめる箱として考える","summary":"ChatGPT Projectsを、フォルダのように仕事や学習をまとめる機能としてやさしく説明します。","category":"ChatGPT活用","tags":["ChatGPT","Projects"],"url":"./articles/chatgpt-projects-beginner-guide/index.html"},{"title":"ChatGPT無料版と有料版、普通の人はどこを見ればいい？","summary":"ChatGPTの無料版と有料版を選ぶとき、初心者が見るべき判断材料を整理します。","category":"料金と安全","tags":["料金","ChatGPT"],"url":"./articles/chatgpt-free-paid-plan-check/index.html"},{"title":"ChatGPTは何に使える？最初に試したい5つの使い方","summary":"ChatGPTを初めて使う人向けに、文章、調べもの、整理、相談、学習での使い方をまとめます。","category":"AI入門","tags":["AI入門","ChatGPT"],"url":"./articles/chatgpt-first-five-uses/index.html"},{"title":"ChatGPTとCodexでホームページは作れる？実際に試してわかったこと","summary":"AIにお願いするとホームページ作りはどこまで進むのか。実際に試して、できたことと人が確認すべきことを整理します。","category":"実践記録","tags":["AI活用","ChatGPT","Codex"],"url":"./articles/chatgpt-codex-homepage-build-test/index.html"}]</script>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <strong>AIVIA</strong>
+      <div class="footer-links">
+        <a href="./pages/about/index.html">運営者情報</a>
+        <a href="./pages/contact/index.html">お問い合わせ</a>
+        <a href="./pages/archive/index.html">記事一覧</a>
+        <a href="./pages/topics/index.html">キーワード一覧</a>
+        <a href="./pages/editorial-policy/index.html">編集方針</a>
+        <a href="./pages/source-policy/index.html">出典方針</a>
+        <a href="./pages/corrections/index.html">訂正依頼</a>
+        <a href="./pages/privacy/index.html">プライバシーポリシー</a>
+        <a href="./pages/terms/index.html">利用規約</a>
+        <a href="./pages/advertise/index.html">広告掲載について</a>
+        <a href="./pages/ad-policy/index.html">広告ポリシー</a>
+        <a href="./rss.xml">RSS</a>
+      </div>
+      <small>&copy; 2026 AIVIA編集部</small>
+    </div>
+  </footer>
+  <script src="./scripts.js" defer></script>
+</body>
+</html>

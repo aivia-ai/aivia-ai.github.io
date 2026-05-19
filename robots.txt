@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aivia-ai.github.io/sitemap.xml
+Sitemap: https://aivia-ai.github.io/news-sitemap.xml

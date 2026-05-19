@@ -1,0 +1,19 @@
+{
+  "name": "AIVIA",
+  "short_name": "AIVIA",
+  "description": "AIVIAは、ChatGPT、Codex、自動化、AIツールの使い方を、短く実用目線で整理するAIメディアです。",
+  "lang": "ja",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f5f7fb",
+  "theme_color": "#0f2942",
+  "icons": [
+    {
+      "src": "/assets/topiq-mark.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
