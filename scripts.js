@@ -15,7 +15,7 @@ document.querySelectorAll("[data-copy-url]").forEach((button) => {
 const searchForm = document.querySelector("[data-search-form]");
 const searchInput = document.querySelector("[data-search-input]");
 const searchResults = document.querySelector("[data-search-results]");
-const searchIndexNode = document.getElementById("topiq-search-index");
+const searchIndexNode = document.getElementById("aivia-search-index") || document.getElementById("topiq-search-index");
 const topicButtons = document.querySelectorAll("[data-topic-search]");
 const signalTabButtons = document.querySelectorAll("[data-signal-tab]");
 const signalPanels = document.querySelectorAll("[data-signal-panel]");
@@ -107,7 +107,7 @@ signalTabButtons.forEach((button) => {
 });
 
 opinionPolls.forEach((poll) => {
-  const storageKey = `topiq-poll:${poll.dataset.opinionPoll}`;
+  const storageKey = `aivia-poll:${poll.dataset.opinionPoll}`;
   const buttons = poll.querySelectorAll("[data-poll-option]");
   const saved = window.localStorage.getItem(storageKey);
 
