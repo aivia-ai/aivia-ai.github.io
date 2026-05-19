@@ -21,3 +21,7 @@
 /rss.xml
   Content-Type: application/rss+xml; charset=utf-8
   Cache-Control: public, max-age=300
+
+/ads.txt
+  Content-Type: text/plain; charset=utf-8
+  Cache-Control: public, max-age=300
