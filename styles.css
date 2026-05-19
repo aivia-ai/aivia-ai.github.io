@@ -304,6 +304,91 @@ a:hover {
   white-space: nowrap;
 }
 
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+  gap: 10px;
+  margin: 0 0 18px;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+
+.service-link {
+  display: grid;
+  justify-items: center;
+  gap: 7px;
+  min-width: 0;
+  color: var(--navy);
+  font-size: 0.82rem;
+  font-weight: 800;
+  line-height: 1.25;
+  text-align: center;
+}
+
+.service-link span:last-child {
+  overflow-wrap: anywhere;
+}
+
+.service-link:hover {
+  color: var(--accent-dark);
+  text-decoration: none;
+}
+
+.service-icon {
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  color: #fff;
+  background: var(--navy);
+  box-shadow: 0 9px 18px rgba(36, 54, 75, 0.16);
+}
+
+.service-icon svg {
+  width: 23px;
+  height: 23px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.85;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.service-ai-basics {
+  background: #24705c;
+}
+
+.service-chatgpt {
+  background: #3269c9;
+}
+
+.service-codex-build {
+  background: #5f4ab7;
+}
+
+.service-automation {
+  background: #b44d2f;
+}
+
+.service-tool-compare {
+  background: #2c748b;
+}
+
+.service-side-business {
+  background: #9a6a18;
+}
+
+.service-money-safety {
+  background: #b5333c;
+}
+
+.service-case-log {
+  background: #46576b;
+}
+
 .signal-board {
   margin-bottom: 18px;
   padding: 18px;
@@ -1868,6 +1953,33 @@ a:hover {
     box-shadow: 0 5px 14px rgba(28, 36, 48, 0.04);
   }
 
+  .service-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 12px 8px;
+    margin: 0 0 12px;
+    padding: 12px 8px 10px;
+    border-radius: 8px;
+    box-shadow: none;
+  }
+
+  .service-link {
+    gap: 6px;
+    min-height: 74px;
+    padding: 2px 0;
+    font-size: 0.76rem;
+  }
+
+  .service-icon {
+    width: 40px;
+    height: 40px;
+    box-shadow: none;
+  }
+
+  .service-icon svg {
+    width: 22px;
+    height: 22px;
+  }
+
   .signal-board,
   .topic-strip,
   .top-story,
@@ -1881,8 +1993,9 @@ a:hover {
 
   .signal-board {
     margin: 0 0 12px;
-    padding: 14px 14px 4px;
+    padding: 0;
     background: #fff;
+    overflow: hidden;
   }
 
   .signal-header {
@@ -1890,7 +2003,9 @@ a:hover {
     align-items: start;
     justify-content: stretch;
     gap: 4px;
-    margin-bottom: 10px;
+    margin: 0;
+    padding: 12px 12px 8px;
+    border-bottom: 1px solid var(--line);
   }
 
   .signal-header h2 {
@@ -1917,8 +2032,9 @@ a:hover {
   .signal-tabs {
     display: flex;
     overflow-x: auto;
-    gap: 6px;
-    padding-bottom: 4px;
+    gap: 0;
+    padding: 0 8px;
+    border-bottom: 1px solid var(--line);
     scrollbar-width: none;
   }
 
@@ -1928,11 +2044,24 @@ a:hover {
 
   .signal-tabs button {
     flex: 0 0 auto;
-    min-height: 34px;
-    padding: 5px 10px;
-    border-radius: 6px;
-    background: #fbfcfd;
+    min-height: 40px;
+    padding: 5px 10px 7px;
+    border: 0;
+    border-bottom: 3px solid transparent;
+    border-radius: 0;
+    background: transparent;
     font-size: 0.82rem;
+    color: #42536a;
+  }
+
+  .signal-tabs button.is-active {
+    background: transparent;
+    color: #0c4fb3;
+    border-color: #0c4fb3;
+  }
+
+  .signal-panel ul {
+    padding: 0 12px;
   }
 
   .signal-panel li {
