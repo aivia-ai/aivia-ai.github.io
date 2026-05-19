@@ -2,6 +2,116 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://aivia-ai.github.io/articles/claude-code-automation-cli/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>AIVIA</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-19T13:54:00.000Z</news:publication_date>
+      <news:title>Claude Codeで自動化するなら、CLIで何を任せる？</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://aivia-ai.github.io/articles/claude-code-git-review-flow/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>AIVIA</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-19T13:53:00.000Z</news:publication_date>
+      <news:title>Claude CodeとGit、変更を確認しながら進める流れ</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://aivia-ai.github.io/articles/claude-code-file-edit-safety/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>AIVIA</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-19T13:52:00.000Z</news:publication_date>
+      <news:title>Claude Codeでファイル編集を頼む前に見る安全ポイント</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://aivia-ai.github.io/articles/claude-code-ask-guide/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>AIVIA</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-19T13:51:00.000Z</news:publication_date>
+      <news:title>Claude Codeに何を頼む？最初の質問の書き方</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://aivia-ai.github.io/articles/claude-code-first-setup/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>AIVIA</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-19T13:50:00.000Z</news:publication_date>
+      <news:title>Claude Codeの始め方、最初に確認すること</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://aivia-ai.github.io/articles/claude-plan-choice/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>AIVIA</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-19T13:49:00.000Z</news:publication_date>
+      <news:title>Claude無料版と有料プラン、どこで判断する？</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://aivia-ai.github.io/articles/claude-web-search-check/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>AIVIA</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-19T13:48:00.000Z</news:publication_date>
+      <news:title>ClaudeのWeb検索、使う前に確認したいこと</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://aivia-ai.github.io/articles/claude-projects-memory-basics/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>AIVIA</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-19T13:47:00.000Z</news:publication_date>
+      <news:title>Claude ProjectsとMemory、長く続く作業で何が便利？</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://aivia-ai.github.io/articles/claude-artifacts-workflow/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>AIVIA</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-19T13:46:00.000Z</news:publication_date>
+      <news:title>Claude Artifactsとは？作ったものを横で見ながら直す機能</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://aivia-ai.github.io/articles/claude-first-five-uses/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>AIVIA</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-19T13:45:00.000Z</news:publication_date>
+      <news:title>Claudeは何に使える？最初に試したい5つの使い方</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://aivia-ai.github.io/articles/asp-registration-first-check/</loc>
     <news:news>
       <news:publication>

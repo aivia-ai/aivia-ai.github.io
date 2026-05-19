@@ -5,6 +5,76 @@
   <link>https://aivia-ai.github.io/</link>
   <description>AIVIAは、ChatGPT、Codex、自動化、AIツールの使い方を、短く実用目線で整理するAIメディアです。</description>
   <item>
+  <title>Claude Codeで自動化するなら、CLIで何を任せる？</title>
+  <link>https://aivia-ai.github.io/articles/claude-code-automation-cli/</link>
+  <guid>https://aivia-ai.github.io/articles/claude-code-automation-cli/</guid>
+  <pubDate>Tue, 19 May 2026 13:54:00 GMT</pubDate>
+  <description>Claude CodeをCLIで使うとき、調査、修正、テスト、レポート化をどこまで任せるか整理します。</description>
+</item>
+<item>
+  <title>Claude CodeとGit、変更を確認しながら進める流れ</title>
+  <link>https://aivia-ai.github.io/articles/claude-code-git-review-flow/</link>
+  <guid>https://aivia-ai.github.io/articles/claude-code-git-review-flow/</guid>
+  <pubDate>Tue, 19 May 2026 13:53:00 GMT</pubDate>
+  <description>Claude Codeで修正したあと、Git差分、テスト、コミット前確認を見る流れを整理します。</description>
+</item>
+<item>
+  <title>Claude Codeでファイル編集を頼む前に見る安全ポイント</title>
+  <link>https://aivia-ai.github.io/articles/claude-code-file-edit-safety/</link>
+  <guid>https://aivia-ai.github.io/articles/claude-code-file-edit-safety/</guid>
+  <pubDate>Tue, 19 May 2026 13:52:00 GMT</pubDate>
+  <description>Claude Codeでファイル編集を頼む前に、作業範囲、バックアップ、秘密情報、実行コマンドを見る理由を整理します。</description>
+</item>
+<item>
+  <title>Claude Codeに何を頼む？最初の質問の書き方</title>
+  <link>https://aivia-ai.github.io/articles/claude-code-ask-guide/</link>
+  <guid>https://aivia-ai.github.io/articles/claude-code-ask-guide/</guid>
+  <pubDate>Tue, 19 May 2026 13:51:00 GMT</pubDate>
+  <description>Claude Codeへ修正や調査を頼むとき、目的、対象ファイル、確認方法を入れると失敗しにくい理由を整理します。</description>
+</item>
+<item>
+  <title>Claude Codeの始め方、最初に確認すること</title>
+  <link>https://aivia-ai.github.io/articles/claude-code-first-setup/</link>
+  <guid>https://aivia-ai.github.io/articles/claude-code-first-setup/</guid>
+  <pubDate>Tue, 19 May 2026 13:50:00 GMT</pubDate>
+  <description>Claude Codeを始める前に、作業フォルダ、認証、Git、実行コマンドを確認する理由を整理します。</description>
+</item>
+<item>
+  <title>Claude無料版と有料プラン、どこで判断する？</title>
+  <link>https://aivia-ai.github.io/articles/claude-plan-choice/</link>
+  <guid>https://aivia-ai.github.io/articles/claude-plan-choice/</guid>
+  <pubDate>Tue, 19 May 2026 13:49:00 GMT</pubDate>
+  <description>Claudeの無料版、有料プラン、チーム向けを選ぶときに、使う回数、資料量、仕事で使うかを見る考え方を整理します。</description>
+</item>
+<item>
+  <title>ClaudeのWeb検索、使う前に確認したいこと</title>
+  <link>https://aivia-ai.github.io/articles/claude-web-search-check/</link>
+  <guid>https://aivia-ai.github.io/articles/claude-web-search-check/</guid>
+  <pubDate>Tue, 19 May 2026 13:48:00 GMT</pubDate>
+  <description>ClaudeでWeb検索を使うとき、公式情報、更新日、引用元、最終確認を見る理由を整理します。</description>
+</item>
+<item>
+  <title>Claude ProjectsとMemory、長く続く作業で何が便利？</title>
+  <link>https://aivia-ai.github.io/articles/claude-projects-memory-basics/</link>
+  <guid>https://aivia-ai.github.io/articles/claude-projects-memory-basics/</guid>
+  <pubDate>Tue, 19 May 2026 13:47:00 GMT</pubDate>
+  <description>ClaudeのProjectsやMemoryを、サイト運営や学習のように長く続く作業で使う考え方として整理します。</description>
+</item>
+<item>
+  <title>Claude Artifactsとは？作ったものを横で見ながら直す機能</title>
+  <link>https://aivia-ai.github.io/articles/claude-artifacts-workflow/</link>
+  <guid>https://aivia-ai.github.io/articles/claude-artifacts-workflow/</guid>
+  <pubDate>Tue, 19 May 2026 13:46:00 GMT</pubDate>
+  <description>Claude Artifactsを、文章、コード、表、デザイン案を画面横で確認しながら直す機能として整理します。</description>
+</item>
+<item>
+  <title>Claudeは何に使える？最初に試したい5つの使い方</title>
+  <link>https://aivia-ai.github.io/articles/claude-first-five-uses/</link>
+  <guid>https://aivia-ai.github.io/articles/claude-first-five-uses/</guid>
+  <pubDate>Tue, 19 May 2026 13:45:00 GMT</pubDate>
+  <description>Claudeを初めて使う人向けに、文章、要約、資料整理、アイデア出し、コード相談で試す流れを整理します。</description>
+</item>
+<item>
   <title>ASP登録前に見ること、A8・もしも・Amazonで迷わない準備</title>
   <link>https://aivia-ai.github.io/articles/asp-registration-first-check/</link>
   <guid>https://aivia-ai.github.io/articles/asp-registration-first-check/</guid>
@@ -73,76 +143,6 @@
   <guid>https://aivia-ai.github.io/articles/ai-personal-data-check/</guid>
   <pubDate>Tue, 19 May 2026 08:00:00 GMT</pubDate>
   <description>AIへ個人情報や仕事の資料を入れる前に、確認したい基本を整理します。</description>
-</item>
-<item>
-  <title>AIの料金プランを比べるとき、月額だけで決めない</title>
-  <link>https://aivia-ai.github.io/articles/ai-plan-price-check/</link>
-  <guid>https://aivia-ai.github.io/articles/ai-plan-price-check/</guid>
-  <pubDate>Tue, 19 May 2026 07:30:00 GMT</pubDate>
-  <description>AIサービスの料金を見るとき、月額、回数、必要な機能を分けて考えます。</description>
-</item>
-<item>
-  <title>AIに家計相談をするとき、入れていい情報と危ない情報</title>
-  <link>https://aivia-ai.github.io/articles/ai-money-consult-privacy/</link>
-  <guid>https://aivia-ai.github.io/articles/ai-money-consult-privacy/</guid>
-  <pubDate>Tue, 19 May 2026 07:20:00 GMT</pubDate>
-  <description>AIにお金の相談をするとき、個人情報を入れすぎないための考え方を整理します。</description>
-</item>
-<item>
-  <title>AIで勉強計画を作るなら、1週間単位から始める</title>
-  <link>https://aivia-ai.github.io/articles/ai-study-plan-weekly/</link>
-  <guid>https://aivia-ai.github.io/articles/ai-study-plan-weekly/</guid>
-  <pubDate>Tue, 19 May 2026 07:10:00 GMT</pubDate>
-  <description>AIで勉強計画を作るとき、長期計画より1週間単位が続きやすい理由を説明します。</description>
-</item>
-<item>
-  <title>AIで議事録を作るとき、あとで困らない整理方法</title>
-  <link>https://aivia-ai.github.io/articles/ai-meeting-notes-basic/</link>
-  <guid>https://aivia-ai.github.io/articles/ai-meeting-notes-basic/</guid>
-  <pubDate>Tue, 19 May 2026 07:00:00 GMT</pubDate>
-  <description>AIで議事録を作るとき、決定事項、宿題、期限を分ける方法をまとめます。</description>
-</item>
-<item>
-  <title>AIでメール文を書くとき、失礼にならない頼み方</title>
-  <link>https://aivia-ai.github.io/articles/ai-email-writing-basic/</link>
-  <guid>https://aivia-ai.github.io/articles/ai-email-writing-basic/</guid>
-  <pubDate>Tue, 19 May 2026 06:30:00 GMT</pubDate>
-  <description>AIにメール文を作らせるとき、相手、目的、温度感を伝える重要性を説明します。</description>
-</item>
-<item>
-  <title>AIで毎朝ネタを集める仕組みを作る考え方</title>
-  <link>https://aivia-ai.github.io/articles/ai-daily-topic-collection/</link>
-  <guid>https://aivia-ai.github.io/articles/ai-daily-topic-collection/</guid>
-  <pubDate>Tue, 19 May 2026 06:20:00 GMT</pubDate>
-  <description>AI実用メディアで毎朝ネタを集めるときの情報源と分類方法を整理します。</description>
-</item>
-<item>
-  <title>AIツールの新機能を記事にするテンプレート</title>
-  <link>https://aivia-ai.github.io/articles/ai-feature-article-template/</link>
-  <guid>https://aivia-ai.github.io/articles/ai-feature-article-template/</guid>
-  <pubDate>Tue, 19 May 2026 06:10:00 GMT</pubDate>
-  <description>新しいAI機能を見つけたとき、記事へ変換する型を整理します。</description>
-</item>
-<item>
-  <title>AIでニュースを拾うより、使える形に直す方が価値になる</title>
-  <link>https://aivia-ai.github.io/articles/ai-news-to-practical-guide/</link>
-  <guid>https://aivia-ai.github.io/articles/ai-news-to-practical-guide/</guid>
-  <pubDate>Tue, 19 May 2026 06:00:00 GMT</pubDate>
-  <description>AIニュースをそのまま追うのではなく、普通の人が使える形へ変える考え方を整理します。</description>
-</item>
-<item>
-  <title>AIで月30万円を目指すなら、最初に見るべき数字</title>
-  <link>https://aivia-ai.github.io/articles/ai-300k-first-metrics/</link>
-  <guid>https://aivia-ai.github.io/articles/ai-300k-first-metrics/</guid>
-  <pubDate>Tue, 19 May 2026 05:30:00 GMT</pubDate>
-  <description>AIメディアで月30万円を狙う前に、記事数、アクセス、広告単価の考え方を整理します。</description>
-</item>
-<item>
-  <title>AIで副業を始める前に、最初に決める3つのこと</title>
-  <link>https://aivia-ai.github.io/articles/ai-side-business-first-three/</link>
-  <guid>https://aivia-ai.github.io/articles/ai-side-business-first-three/</guid>
-  <pubDate>Tue, 19 May 2026 05:20:00 GMT</pubDate>
-  <description>AI副業を始めたい人が、ツールより先に決めるべき目的、時間、売り方を整理します。</description>
 </item>
 </channel>
 </rss>

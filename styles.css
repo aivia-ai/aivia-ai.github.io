@@ -379,8 +379,16 @@ a:hover {
   background: #3269c9;
 }
 
+.service-claude {
+  background: #6f4c2d;
+}
+
 .service-codex-build {
   background: #5f4ab7;
+}
+
+.service-claude-code {
+  background: #39445f;
 }
 
 .service-automation {
