@@ -1140,6 +1140,28 @@ a:hover {
   margin: 0.35em 0;
 }
 
+.affiliate-disclosure {
+  margin: 16px 0 18px;
+  padding: 12px 14px;
+  border: 1px solid #d9e4f2;
+  border-radius: 6px;
+  background: #f7fbff;
+  color: var(--navy);
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+.affiliate-disclosure strong {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 0.82rem;
+}
+
+.affiliate-disclosure p {
+  margin: 0;
+  color: var(--muted);
+}
+
 .article-main-text,
 .article-read-more {
   margin-top: 18px;
