@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://aivia-ai.github.io/articles/google-io-ai-search-gemini-summary/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>AIVIA</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-20T10:20:00.000Z</news:publication_date>
+      <news:title>Google I/O 2026で何が変わる？検索とGeminiの要点だけ整理</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://aivia-ai.github.io/articles/today-ai-news-quick-summary/</loc>
     <news:news>
       <news:publication>
