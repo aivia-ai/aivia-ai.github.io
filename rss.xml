@@ -5,6 +5,34 @@
   <link>https://aivia-ai.github.io/</link>
   <description>AIVIAは、ChatGPT、Codex、自動化、AIツールの使い方を、短く実用目線で整理するAIメディアです。</description>
   <item>
+  <title>Claude Opus 4.7とClaude Code、コード確認で見るべき点</title>
+  <link>https://aivia-ai.github.io/articles/claude-opus-47-code-review/</link>
+  <guid>https://aivia-ai.github.io/articles/claude-opus-47-code-review/</guid>
+  <pubDate>Wed, 20 May 2026 08:20:00 GMT</pubDate>
+  <description>Claude Opus 4.7とClaude Codeの新機能を、開発者ではない人にも分かるようにコード確認の目線で整理します。</description>
+</item>
+<item>
+  <title>GPT-5.5 Instantで何が変わる？ChatGPTを使う人向けの見方</title>
+  <link>https://aivia-ai.github.io/articles/gpt-55-instant-what-changed/</link>
+  <guid>https://aivia-ai.github.io/articles/gpt-55-instant-what-changed/</guid>
+  <pubDate>Wed, 20 May 2026 08:15:00 GMT</pubDate>
+  <description>OpenAIのGPT-5.5 Instant発表をもとに、ChatGPT利用者が見るべき変化を短く整理します。</description>
+</item>
+<item>
+  <title>Google検索がAIエージェント化？検索する人が知るべき変化</title>
+  <link>https://aivia-ai.github.io/articles/google-search-ai-agents-mini-apps/</link>
+  <guid>https://aivia-ai.github.io/articles/google-search-ai-agents-mini-apps/</guid>
+  <pubDate>Wed, 20 May 2026 08:10:00 GMT</pubDate>
+  <description>Google検索にAIエージェントやミニアプリの考え方が入る流れを、検索する側・サイトを作る側の両方から整理します。</description>
+</item>
+<item>
+  <title>Geminiが24時間助けるAIに？普通の人が見るポイント</title>
+  <link>https://aivia-ai.github.io/articles/gemini-agentic-app-check/</link>
+  <guid>https://aivia-ai.github.io/articles/gemini-agentic-app-check/</guid>
+  <pubDate>Wed, 20 May 2026 08:05:00 GMT</pubDate>
+  <description>Google I/O 2026で発表されたGeminiアプリの進化を、毎日の仕事や調べものに使えるかという目線で整理します。</description>
+</item>
+<item>
   <title>生成AIの無料セミナーを見る前に確認すること</title>
   <link>https://aivia-ai.github.io/articles/ai-seminar-before-join-check/</link>
   <guid>https://aivia-ai.github.io/articles/ai-seminar-before-join-check/</guid>
@@ -115,34 +143,6 @@
   <guid>https://aivia-ai.github.io/articles/ai-daily-writing-routine/</guid>
   <pubDate>Tue, 19 May 2026 09:20:00 GMT</pubDate>
   <description>AI実用メディアを続けるための日次ルーティンを整理します。</description>
-</item>
-<item>
-  <title>AIで記事を増やす前に、カテゴリを決める理由</title>
-  <link>https://aivia-ai.github.io/articles/ai-category-design-before-writing/</link>
-  <guid>https://aivia-ai.github.io/articles/ai-category-design-before-writing/</guid>
-  <pubDate>Tue, 19 May 2026 09:10:00 GMT</pubDate>
-  <description>AI実用記事を増やす前に、カテゴリ設計を決める意味を説明します。</description>
-</item>
-<item>
-  <title>AIVIAは何をするサイト？AIへの近道をやさしく作る</title>
-  <link>https://aivia-ai.github.io/articles/aivia-site-concept/</link>
-  <guid>https://aivia-ai.github.io/articles/aivia-site-concept/</guid>
-  <pubDate>Tue, 19 May 2026 09:00:00 GMT</pubDate>
-  <description>AIVIAという名前の由来と、AI初心者向け実用メディアとしての方針をまとめます。</description>
-</item>
-<item>
-  <title>AI活用データベースとは？ニュースより残るサイトの作り方</title>
-  <link>https://aivia-ai.github.io/articles/ai-practical-database-concept/</link>
-  <guid>https://aivia-ai.github.io/articles/ai-practical-database-concept/</guid>
-  <pubDate>Tue, 19 May 2026 08:30:00 GMT</pubDate>
-  <description>AIVIAがニュースサイトではなくAI活用データベースを目指す理由を説明します。</description>
-</item>
-<item>
-  <title>AIで作業時間を記録すると、収益化の現実が見える</title>
-  <link>https://aivia-ai.github.io/articles/ai-work-time-log/</link>
-  <guid>https://aivia-ai.github.io/articles/ai-work-time-log/</guid>
-  <pubDate>Tue, 19 May 2026 08:20:00 GMT</pubDate>
-  <description>AI副業やメディア運営で、作業時間を記録する意味を整理します。</description>
 </item>
 </channel>
 </rss>

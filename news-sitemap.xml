@@ -2,6 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://aivia-ai.github.io/articles/claude-opus-47-code-review/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>AIVIA</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-20T08:20:00.000Z</news:publication_date>
+      <news:title>Claude Opus 4.7とClaude Code、コード確認で見るべき点</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://aivia-ai.github.io/articles/gpt-55-instant-what-changed/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>AIVIA</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-20T08:15:00.000Z</news:publication_date>
+      <news:title>GPT-5.5 Instantで何が変わる？ChatGPTを使う人向けの見方</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://aivia-ai.github.io/articles/google-search-ai-agents-mini-apps/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>AIVIA</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-20T08:10:00.000Z</news:publication_date>
+      <news:title>Google検索がAIエージェント化？検索する人が知るべき変化</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://aivia-ai.github.io/articles/gemini-agentic-app-check/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>AIVIA</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-20T08:05:00.000Z</news:publication_date>
+      <news:title>Geminiが24時間助けるAIに？普通の人が見るポイント</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://aivia-ai.github.io/articles/ai-seminar-before-join-check/</loc>
     <news:news>
       <news:publication>
