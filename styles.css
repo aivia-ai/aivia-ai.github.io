@@ -470,6 +470,60 @@ a:hover {
   color: #111;
 }
 
+.trend-focus {
+  display: grid;
+  grid-template-columns: 112px minmax(0, 1fr);
+  gap: 14px;
+  align-items: center;
+  margin-bottom: 18px;
+  padding: 14px;
+  border: 1px solid #cfe0ff;
+  border-radius: var(--radius);
+  background: linear-gradient(135deg, #f7fbff 0%, #fff 62%);
+}
+
+.trend-focus-thumb img {
+  display: block;
+  width: 112px;
+  height: 78px;
+  border-radius: 6px;
+  object-fit: cover;
+  background: #eef2f7;
+}
+
+.trend-focus-main {
+  min-width: 0;
+}
+
+.trend-focus-main span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 22px;
+  padding: 0 8px;
+  border-radius: 999px;
+  background: #e9f2ff;
+  color: #0c4fb3;
+  font-size: 0.75rem;
+  font-weight: 900;
+}
+
+.trend-focus-main h2 {
+  margin: 5px 0 4px;
+  font-size: 1.18rem;
+  line-height: 1.32;
+}
+
+.trend-focus-main h2 a {
+  color: #0d3f8d;
+}
+
+.trend-focus-main p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
 .signal-board {
   margin-bottom: 18px;
   padding: 18px;
@@ -2254,6 +2308,35 @@ a:hover {
   .social-link {
     flex: 0 0 auto;
     min-height: 36px;
+  }
+
+  .trend-focus {
+    grid-template-columns: 92px minmax(0, 1fr);
+    gap: 10px;
+    margin-bottom: 12px;
+    padding: 11px 12px;
+    border-radius: 8px;
+    background: #fff;
+  }
+
+  .trend-focus-thumb img {
+    width: 92px;
+    height: 68px;
+    border-radius: 5px;
+  }
+
+  .trend-focus-main h2 {
+    margin: 4px 0 3px;
+    font-size: 0.98rem;
+    line-height: 1.38;
+  }
+
+  .trend-focus-main p {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    font-size: 0.8rem;
   }
 
   .signal-board,
