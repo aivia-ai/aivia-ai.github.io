@@ -5,6 +5,13 @@
   <link>https://aivia-ai.github.io/</link>
   <description>AIVIAは、ChatGPT、Codex、自動化、AIツールの使い方を、短く実用目線で整理するAIメディアです。</description>
   <item>
+  <title>生成AIスクールは必要？独学で足りる人・講座が向く人</title>
+  <link>https://aivia-ai.github.io/articles/ai-school-self-study-check/</link>
+  <guid>https://aivia-ai.github.io/articles/ai-school-self-study-check/</guid>
+  <pubDate>Wed, 20 May 2026 00:35:00 GMT</pubDate>
+  <description>生成AIを学ぶとき、独学で進めるかスクールを使うかを判断するための見方を短く整理します。</description>
+</item>
+<item>
   <title>Claude Codeで自動化するなら、CLIで何を任せる？</title>
   <link>https://aivia-ai.github.io/articles/claude-code-automation-cli/</link>
   <guid>https://aivia-ai.github.io/articles/claude-code-automation-cli/</guid>
@@ -136,13 +143,6 @@
   <guid>https://aivia-ai.github.io/articles/ai-prompt-reduce-mistakes/</guid>
   <pubDate>Tue, 19 May 2026 08:10:00 GMT</pubDate>
   <description>AIの回答ミスを減らすために、条件、目的、確認方法を入れて質問する方法を説明します。</description>
-</item>
-<item>
-  <title>AIに個人情報を入れる前に確認したいこと</title>
-  <link>https://aivia-ai.github.io/articles/ai-personal-data-check/</link>
-  <guid>https://aivia-ai.github.io/articles/ai-personal-data-check/</guid>
-  <pubDate>Tue, 19 May 2026 08:00:00 GMT</pubDate>
-  <description>AIへ個人情報や仕事の資料を入れる前に、確認したい基本を整理します。</description>
 </item>
 </channel>
 </rss>
