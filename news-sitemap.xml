@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://aivia-ai.github.io/articles/today-ai-news-quick-summary/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>AIVIA</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-20T08:40:00.000Z</news:publication_date>
+      <news:title>今日のAIニュース要点まとめ：Gemini、Google検索、GPT-5.5、Claude Code</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://aivia-ai.github.io/articles/claude-opus-47-code-review/</loc>
     <news:news>
       <news:publication>

@@ -5,6 +5,13 @@
   <link>https://aivia-ai.github.io/</link>
   <description>AIVIAは、ChatGPT、Codex、自動化、AIツールの使い方を、短く実用目線で整理するAIメディアです。</description>
   <item>
+  <title>今日のAIニュース要点まとめ：Gemini、Google検索、GPT-5.5、Claude Code</title>
+  <link>https://aivia-ai.github.io/articles/today-ai-news-quick-summary/</link>
+  <guid>https://aivia-ai.github.io/articles/today-ai-news-quick-summary/</guid>
+  <pubDate>Wed, 20 May 2026 08:40:00 GMT</pubDate>
+  <description>今日話題になりやすいAIニュースを、普通に使う人が見るべきポイントだけに絞って整理します。</description>
+</item>
+<item>
   <title>Claude Opus 4.7とClaude Code、コード確認で見るべき点</title>
   <link>https://aivia-ai.github.io/articles/claude-opus-47-code-review/</link>
   <guid>https://aivia-ai.github.io/articles/claude-opus-47-code-review/</guid>
@@ -136,13 +143,6 @@
   <guid>https://aivia-ai.github.io/articles/ai-tool-comparison-checkpoints/</guid>
   <pubDate>Tue, 19 May 2026 09:30:00 GMT</pubDate>
   <description>AIツール比較記事を読むとき、料金、使える機能、向いている人、PR表記を見る理由を整理します。</description>
-</item>
-<item>
-  <title>AIで記事を書く日次ルーティン、朝にやること夜にやること</title>
-  <link>https://aivia-ai.github.io/articles/ai-daily-writing-routine/</link>
-  <guid>https://aivia-ai.github.io/articles/ai-daily-writing-routine/</guid>
-  <pubDate>Tue, 19 May 2026 09:20:00 GMT</pubDate>
-  <description>AI実用メディアを続けるための日次ルーティンを整理します。</description>
 </item>
 </channel>
 </rss>
