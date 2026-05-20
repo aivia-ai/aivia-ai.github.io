@@ -1,7 +1,7 @@
 {
   "name": "AIVIA",
   "short_name": "AIVIA",
-  "description": "AIVIAは、ChatGPT、Codex、自動化、AIツールの使い方を、短く実用目線で整理するAIメディアです。",
+  "description": "AIVIAは、AIニュース、ChatGPT、Claude Code、Codex、自動化、AIツールの使い方を短く実用目線で整理するAIメディアです。",
   "lang": "ja",
   "start_url": "/",
   "scope": "/",
