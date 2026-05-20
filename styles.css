@@ -1174,28 +1174,81 @@ a:hover {
   font-weight: 800;
 }
 
-.article-share a,
-.article-share button {
+.share-action {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 32px;
-  padding: 0 10px;
-  border: 1px solid rgba(12, 79, 179, 0.24);
+  gap: 6px;
+  min-height: 34px;
+  padding: 0 11px;
+  border: 1px solid rgba(36, 54, 75, 0.14);
   border-radius: 999px;
   background: #fff;
-  color: #0c4fb3;
+  color: var(--navy);
   font-size: 0.84rem;
   font-weight: 900;
   line-height: 1;
 }
 
-.article-share a:hover,
-.article-share button:hover {
+.share-action svg {
+  display: block;
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+  stroke: none;
+}
+
+.share-action:hover {
+  text-decoration: none;
+}
+
+.share-x {
+  background: #111;
+  border-color: #111;
+  color: #fff;
+}
+
+.share-x:hover {
+  background: #000;
+  color: #fff;
+}
+
+.share-line {
+  background: #06c755;
+  border-color: #06c755;
+  color: #fff;
+}
+
+.share-line svg path + path {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.35;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.share-line:hover {
+  background: #04ad49;
+  color: #fff;
+}
+
+.share-copy {
+  border-color: rgba(12, 79, 179, 0.24);
+  color: #0c4fb3;
+}
+
+.share-copy svg {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.9;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.share-copy:hover {
   border-color: rgba(12, 79, 179, 0.42);
   background: #f4f8ff;
   color: #083c88;
-  text-decoration: none;
 }
 
 .article-layout {
