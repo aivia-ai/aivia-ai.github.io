@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://aivia-ai.github.io/articles/google-ai-agent-always-on-meaning/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>AIVIA</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-20T11:18:00.000Z</news:publication_date>
+      <news:title>Googleの「無休で働くAI agent」とは？普通の人向けに要点だけ整理</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://aivia-ai.github.io/articles/google-ai-ultra-pro-plan-check/</loc>
     <news:news>
       <news:publication>
