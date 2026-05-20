@@ -5,6 +5,13 @@
   <link>https://aivia-ai.github.io/</link>
   <description>AIVIAは、AIニュース、ChatGPT、Claude Code、Codex、自動化、AIツールの使い方を短く実用目線で整理するAIメディアです。</description>
   <item>
+  <title>NVIDIA決算で出たAIエージェントとは？普通の人への影響</title>
+  <link>https://aivia-ai.github.io/articles/nvidia-ai-agent-economy/</link>
+  <guid>https://aivia-ai.github.io/articles/nvidia-ai-agent-economy/</guid>
+  <pubDate>Wed, 20 May 2026 23:24:00 GMT</pubDate>
+  <description>NVIDIA決算で注目されたAIエージェントは、仕事や副業にどう関係するのか。難しい株の話ではなく、使う側の変化で整理します。</description>
+</item>
+<item>
   <title>AIエージェントに何を任せていい？1分で見る安全チェック</title>
   <link>https://aivia-ai.github.io/articles/ai-agent-permission-check/</link>
   <guid>https://aivia-ai.github.io/articles/ai-agent-permission-check/</guid>
@@ -136,13 +143,6 @@
   <guid>https://aivia-ai.github.io/articles/claude-web-search-check/</guid>
   <pubDate>Tue, 19 May 2026 13:48:00 GMT</pubDate>
   <description>ClaudeでWeb検索を使うとき、公式情報、更新日、引用元、最終確認を見る理由を整理します。</description>
-</item>
-<item>
-  <title>Claude ProjectsとMemory、長く続く作業で何が便利？</title>
-  <link>https://aivia-ai.github.io/articles/claude-projects-memory-basics/</link>
-  <guid>https://aivia-ai.github.io/articles/claude-projects-memory-basics/</guid>
-  <pubDate>Tue, 19 May 2026 13:47:00 GMT</pubDate>
-  <description>ClaudeのProjectsやMemoryを、サイト運営や学習のように長く続く作業で使う考え方として整理します。</description>
 </item>
 </channel>
 </rss>
