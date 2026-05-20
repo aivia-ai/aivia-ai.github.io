@@ -5,6 +5,13 @@
   <link>https://aivia-ai.github.io/</link>
   <description>AIVIAは、AIニュース、ChatGPT、Claude Code、Codex、自動化、AIツールの使い方を短く実用目線で整理するAIメディアです。</description>
   <item>
+  <title>AIエージェントに何を任せていい？1分で見る安全チェック</title>
+  <link>https://aivia-ai.github.io/articles/ai-agent-permission-check/</link>
+  <guid>https://aivia-ai.github.io/articles/ai-agent-permission-check/</guid>
+  <pubDate>Wed, 20 May 2026 22:08:00 GMT</pubDate>
+  <description>Gemini SparkなどのAIエージェントを使う前に、任せていい作業とまだ待つ作業を1分で切り分けます。</description>
+</item>
+<item>
   <title>Gemini Sparkは日本でいつ使える？UltraとProの確認ポイント</title>
   <link>https://aivia-ai.github.io/articles/gemini-spark-japan-ultra-check/</link>
   <guid>https://aivia-ai.github.io/articles/gemini-spark-japan-ultra-check/</guid>
@@ -136,13 +143,6 @@
   <guid>https://aivia-ai.github.io/articles/claude-projects-memory-basics/</guid>
   <pubDate>Tue, 19 May 2026 13:47:00 GMT</pubDate>
   <description>ClaudeのProjectsやMemoryを、サイト運営や学習のように長く続く作業で使う考え方として整理します。</description>
-</item>
-<item>
-  <title>Claude Artifactsとは？作ったものを横で見ながら直す機能</title>
-  <link>https://aivia-ai.github.io/articles/claude-artifacts-workflow/</link>
-  <guid>https://aivia-ai.github.io/articles/claude-artifacts-workflow/</guid>
-  <pubDate>Tue, 19 May 2026 13:46:00 GMT</pubDate>
-  <description>Claude Artifactsを、文章、コード、表、デザイン案を画面横で確認しながら直す機能として整理します。</description>
 </item>
 </channel>
 </rss>
