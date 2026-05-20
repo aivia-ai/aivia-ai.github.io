@@ -1160,6 +1160,44 @@ a:hover {
   background: transparent;
 }
 
+.article-share {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin: 16px 0 18px;
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+.article-share span {
+  font-weight: 800;
+}
+
+.article-share a,
+.article-share button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 32px;
+  padding: 0 10px;
+  border: 1px solid rgba(12, 79, 179, 0.24);
+  border-radius: 999px;
+  background: #fff;
+  color: #0c4fb3;
+  font-size: 0.84rem;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.article-share a:hover,
+.article-share button:hover {
+  border-color: rgba(12, 79, 179, 0.42);
+  background: #f4f8ff;
+  color: #083c88;
+  text-decoration: none;
+}
+
 .article-layout {
   display: grid;
   grid-template-columns: minmax(0, 760px) minmax(240px, 1fr);

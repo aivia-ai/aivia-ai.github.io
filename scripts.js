@@ -1,13 +1,17 @@
 document.querySelectorAll("[data-copy-url]").forEach((button) => {
+  const defaultText = button.dataset.copyDefault || button.textContent;
+  const successText = button.dataset.copySuccess || "コピーしました";
+  const failedText = button.dataset.copyFailed || "コピーできませんでした";
+
   button.addEventListener("click", async () => {
     try {
-      await navigator.clipboard.writeText(window.location.href);
-      button.textContent = "URLをコピーしました";
+      await navigator.clipboard.writeText(button.dataset.copyValue || window.location.href);
+      button.textContent = successText;
       window.setTimeout(() => {
-        button.textContent = "URLをコピー";
+        button.textContent = defaultText;
       }, 1600);
     } catch {
-      button.textContent = "コピーできませんでした";
+      button.textContent = failedText;
     }
   });
 });
