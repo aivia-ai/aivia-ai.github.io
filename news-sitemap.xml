@@ -9,7 +9,7 @@
         <news:language>ja</news:language>
       </news:publication>
       <news:publication_date>2026-05-21T05:10:00.000Z</news:publication_date>
-      <news:title>ChatGPT・Gemini・Claude・Codex、どれを使う？1分診断</news:title>
+      <news:title>ChatGPT・Gemini・Claude・Codex、どれを使う・課金する？1分診断</news:title>
     </news:news>
   </url>
   <url>
@@ -461,61 +461,6 @@
       </news:publication>
       <news:publication_date>2026-05-19T06:00:00.000Z</news:publication_date>
       <news:title>AIでニュースを拾うより、使える形に直す方が価値になる</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://aivia-ai.github.io/articles/ai-300k-first-metrics/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>AIVIA</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-19T05:30:00.000Z</news:publication_date>
-      <news:title>AIで月30万円を目指すなら、最初に見るべき数字</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://aivia-ai.github.io/articles/ai-side-business-first-three/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>AIVIA</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-19T05:20:00.000Z</news:publication_date>
-      <news:title>AIで副業を始める前に、最初に決める3つのこと</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://aivia-ai.github.io/articles/ai-seo-evergreen-theme/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>AIVIA</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-19T05:10:00.000Z</news:publication_date>
-      <news:title>AIでSEO記事を作るとき、検索され続けるテーマの選び方</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://aivia-ai.github.io/articles/ai-image-vs-free-stock-photo/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>AIVIA</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-19T05:00:00.000Z</news:publication_date>
-      <news:title>AIで画像を作る前に、無料素材写真を使う選択肢</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://aivia-ai.github.io/articles/chatgpt-gemini-claude-first-choice/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>AIVIA</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-19T04:30:00.000Z</news:publication_date>
-      <news:title>ChatGPT、Gemini、Claude、最初に使うならどれ？</news:title>
     </news:news>
   </url>
 </urlset>
