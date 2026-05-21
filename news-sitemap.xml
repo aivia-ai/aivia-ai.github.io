@@ -386,15 +386,4 @@
       <news:title>AIに個人情報を入れる前に確認したいこと</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://aivia-ai.github.io/articles/ai-plan-price-check/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>AIVIA</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-19T07:30:00.000Z</news:publication_date>
-      <news:title>AIの料金プランを比べるとき、月額だけで決めない</news:title>
-    </news:news>
-  </url>
 </urlset>

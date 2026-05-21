@@ -1484,6 +1484,79 @@ a:hover {
   color: var(--muted);
 }
 
+.affiliate-link-panel {
+  margin: 18px 0;
+  padding: 14px;
+  border: 1px solid #d8e5f4;
+  border-radius: 6px;
+  background: #f7fbff;
+}
+
+.affiliate-link-head {
+  display: grid;
+  gap: 4px;
+  margin-bottom: 10px;
+}
+
+.affiliate-link-head span {
+  color: #1d5fbf;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.affiliate-link-head h2 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 17px;
+}
+
+.affiliate-link-head p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.affiliate-link-grid {
+  display: grid;
+  gap: 8px;
+}
+
+.affiliate-link-card {
+  display: grid;
+  gap: 3px;
+  padding: 10px 12px;
+  border: 1px solid #c9dbee;
+  border-radius: 5px;
+  background: #fff;
+  color: #0b5fc7;
+  text-decoration: none;
+}
+
+.affiliate-link-card span {
+  color: #6b7683;
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.affiliate-link-card strong {
+  font-size: 14px;
+  line-height: 1.35;
+}
+
+.affiliate-link-card small {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.affiliate-link-card:hover,
+.affiliate-link-card:focus-visible {
+  border-color: #0b5fc7;
+  box-shadow: 0 0 0 2px rgba(11, 95, 199, 0.1);
+}
+
 .article-main-text,
 .article-read-more {
   margin-top: 18px;
