@@ -5,6 +5,13 @@
   <link>https://aivia-ai.github.io/</link>
   <description>AIVIAは、AIニュース、ChatGPT、Claude Code、Codex、自動化、AIツールの使い方を短く実用目線で整理するAIメディアです。</description>
   <item>
+  <title>AnthropicのStainless買収とは？Claudeが外部ツールにつながりやすくなる理由</title>
+  <link>https://aivia-ai.github.io/articles/anthropic-stainless-agent-tools-check/</link>
+  <guid>https://aivia-ai.github.io/articles/anthropic-stainless-agent-tools-check/</guid>
+  <pubDate>Thu, 21 May 2026 13:52:00 GMT</pubDate>
+  <description>AnthropicがStainlessを買収したニュースを、ClaudeやAIエージェントを使う普通の人向けに整理します。</description>
+</item>
+<item>
   <title>Claude Mythosとは？公開されないAIが話題の理由</title>
   <link>https://aivia-ai.github.io/articles/claude-mythos-project-glasswing-check/</link>
   <guid>https://aivia-ai.github.io/articles/claude-mythos-project-glasswing-check/</guid>
@@ -136,13 +143,6 @@
   <guid>https://aivia-ai.github.io/articles/claude-code-git-review-flow/</guid>
   <pubDate>Tue, 19 May 2026 13:53:00 GMT</pubDate>
   <description>Claude Codeで修正したあと、Git差分、テスト、コミット前確認を見る流れを整理します。</description>
-</item>
-<item>
-  <title>Claude Codeでファイル編集を頼む前に見る安全ポイント</title>
-  <link>https://aivia-ai.github.io/articles/claude-code-file-edit-safety/</link>
-  <guid>https://aivia-ai.github.io/articles/claude-code-file-edit-safety/</guid>
-  <pubDate>Tue, 19 May 2026 13:52:00 GMT</pubDate>
-  <description>Claude Codeでファイル編集を頼む前に、作業範囲、バックアップ、秘密情報、実行コマンドを見る理由を整理します。</description>
 </item>
 </channel>
 </rss>
