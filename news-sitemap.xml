@@ -9,7 +9,7 @@
         <news:language>ja</news:language>
       </news:publication>
       <news:publication_date>2026-05-20T23:24:00.000Z</news:publication_date>
-      <news:title>NVIDIA決算で出たAIエージェントとは？普通の人への影響</news:title>
+      <news:title>NVIDIA決算で話題のAIエージェントとは？仕事への影響</news:title>
     </news:news>
   </url>
   <url>
@@ -670,17 +670,6 @@
       </news:publication>
       <news:publication_date>2026-05-19T01:00:00.000Z</news:publication_date>
       <news:title>ChatGPT Tasksで何ができる？毎日の確認をAIに頼む考え方</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://aivia-ai.github.io/articles/chatgpt-projects-beginner-guide/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>AIVIA</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-19T00:30:00.000Z</news:publication_date>
-      <news:title>ChatGPT Projectsとは？長く続く作業をまとめる箱として考える</news:title>
     </news:news>
   </url>
 </urlset>
