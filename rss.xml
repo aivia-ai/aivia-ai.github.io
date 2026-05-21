@@ -5,6 +5,13 @@
   <link>https://aivia-ai.github.io/</link>
   <description>AIVIAは、AIニュース、ChatGPT、Claude Code、Codex、自動化、AIツールの使い方を短く実用目線で整理するAIメディアです。</description>
   <item>
+  <title>Claude Mythosとは？公開されないAIが話題の理由</title>
+  <link>https://aivia-ai.github.io/articles/claude-mythos-project-glasswing-check/</link>
+  <guid>https://aivia-ai.github.io/articles/claude-mythos-project-glasswing-check/</guid>
+  <pubDate>Thu, 21 May 2026 12:20:00 GMT</pubDate>
+  <description>Claude Mythos PreviewとProject Glasswingがなぜ話題なのか、普通の人が見るべき点だけを整理します。</description>
+</item>
+<item>
   <title>ChatGPT Plus・Claude Pro・Gemini Advanced、課金するならどれ？</title>
   <link>https://aivia-ai.github.io/articles/chatgpt-claude-gemini-paid-plan-check/</link>
   <guid>https://aivia-ai.github.io/articles/chatgpt-claude-gemini-paid-plan-check/</guid>
@@ -136,13 +143,6 @@
   <guid>https://aivia-ai.github.io/articles/claude-code-file-edit-safety/</guid>
   <pubDate>Tue, 19 May 2026 13:52:00 GMT</pubDate>
   <description>Claude Codeでファイル編集を頼む前に、作業範囲、バックアップ、秘密情報、実行コマンドを見る理由を整理します。</description>
-</item>
-<item>
-  <title>Claude Codeに何を頼む？最初の質問の書き方</title>
-  <link>https://aivia-ai.github.io/articles/claude-code-ask-guide/</link>
-  <guid>https://aivia-ai.github.io/articles/claude-code-ask-guide/</guid>
-  <pubDate>Tue, 19 May 2026 13:51:00 GMT</pubDate>
-  <description>Claude Codeへ修正や調査を頼むとき、目的、対象ファイル、確認方法を入れると失敗しにくい理由を整理します。</description>
 </item>
 </channel>
 </rss>
