@@ -1939,6 +1939,148 @@ a:hover {
   margin-top: 0;
 }
 
+.diagnosis-tool {
+  display: grid;
+  gap: 16px;
+  max-width: 980px;
+}
+
+.diagnosis-hero,
+.diagnosis-form,
+.diagnosis-result {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+
+.diagnosis-hero {
+  padding: 26px;
+}
+
+.diagnosis-hero h1 {
+  margin: 6px 0 10px;
+  color: var(--navy);
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  line-height: 1.15;
+  letter-spacing: 0;
+}
+
+.diagnosis-hero p {
+  max-width: 720px;
+  margin: 0;
+  color: var(--muted);
+  font-weight: 700;
+  line-height: 1.8;
+}
+
+.diagnosis-form {
+  display: grid;
+  gap: 12px;
+  padding: 18px;
+}
+
+.diagnosis-question {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding: 0 0 14px;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.diagnosis-question:last-of-type {
+  border-bottom: 0;
+}
+
+.diagnosis-question legend {
+  margin-bottom: 8px;
+  color: var(--navy);
+  font-weight: 900;
+}
+
+.diagnosis-question label {
+  display: grid;
+  grid-template-columns: 20px minmax(0, 1fr);
+  gap: 9px;
+  align-items: center;
+  min-height: 42px;
+  padding: 9px 10px;
+  border: 1px solid #dce5f0;
+  border-radius: 6px;
+  background: #fbfcfd;
+  color: var(--ink);
+  font-weight: 800;
+  line-height: 1.45;
+  cursor: pointer;
+}
+
+.diagnosis-question input {
+  accent-color: var(--accent);
+}
+
+.diagnosis-question label:has(input:checked) {
+  border-color: rgba(199, 62, 58, 0.42);
+  background: #fff7f2;
+}
+
+.diagnosis-run {
+  justify-self: start;
+  min-width: 180px;
+}
+
+.diagnosis-result {
+  display: grid;
+  gap: 10px;
+  padding: 22px;
+  border-color: rgba(12, 79, 179, 0.24);
+  background: linear-gradient(180deg, #f7fbff 0%, #fff 100%);
+}
+
+.diagnosis-result[hidden] {
+  display: none;
+}
+
+.diagnosis-result > span {
+  color: #0c4fb3;
+  font-size: 0.78rem;
+  font-weight: 900;
+}
+
+.diagnosis-result h2 {
+  margin: 0;
+  color: var(--navy);
+  font-size: 1.45rem;
+  line-height: 1.35;
+}
+
+.diagnosis-result p {
+  margin: 0;
+  color: var(--muted);
+  font-weight: 700;
+  line-height: 1.7;
+}
+
+.diagnosis-result ul {
+  display: grid;
+  gap: 7px;
+  margin: 4px 0 0;
+  padding-left: 1.25em;
+  font-weight: 800;
+}
+
+.diagnosis-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.diagnosis-actions a:not(.button) {
+  color: #0c4fb3;
+  font-weight: 900;
+}
+
 .archive-hero {
   max-width: none;
   margin-bottom: 18px;

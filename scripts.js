@@ -157,3 +157,84 @@ readMoreSections.forEach((section) => {
     closeButton.addEventListener("click", () => setExpanded(false));
   }
 });
+
+document.querySelectorAll("[data-diagnosis-tool]").forEach((tool) => {
+  const form = tool.querySelector("[data-diagnosis-form]");
+  const result = tool.querySelector("[data-diagnosis-result]");
+  const title = tool.querySelector("[data-diagnosis-title]");
+  const copy = tool.querySelector("[data-diagnosis-copy]");
+  const points = tool.querySelector("[data-diagnosis-points]");
+  const articleLink = tool.querySelector("[data-diagnosis-article]");
+  const shareLink = tool.querySelector("[data-diagnosis-share]");
+
+  if (!form || !result || !title || !copy || !points) return;
+
+  const results = {
+    chatgpt: {
+      title: "まずはChatGPTが合いそうです",
+      copy: "相談、文章、要約、アイデア出しを広く使いたいなら、最初の有料候補はChatGPTです。",
+      points: ["使い道が広く、毎日の相談相手にしやすい", "文章作成や要約から試しやすい", "迷ったら最初の1つにしやすい"]
+    },
+    claude: {
+      title: "Claudeが合いそうです",
+      copy: "長い文章を読む、整える、自然な文章に直す作業が多いなら、Claudeを優先して試す価値があります。",
+      points: ["長文の整理や読み込みに向いている", "落ち着いた文章づくりに使いやすい", "資料をまとめる作業と相性がいい"]
+    },
+    gemini: {
+      title: "Geminiが合いそうです",
+      copy: "Google検索、Gmail、Docsなどをよく使うなら、Geminiを先に試すと作業の流れに乗せやすいです。",
+      points: ["Googleサービスとの相性を見やすい", "調べものから作業までつなげやすい", "AndroidやGoogle環境の人に向きやすい"]
+    },
+    codex: {
+      title: "Codexも候補に入れるべきです",
+      copy: "サイト制作、コード修正、自動化まで進めたいなら、会話AIだけでなくCodexを別枠で考えると判断しやすくなります。",
+      points: ["ファイルを直接扱う作業に向いている", "サイト制作や修正を進めやすい", "仕組み化したい人には強い選択肢になる"]
+    }
+  };
+
+  function getWinner() {
+    const score = { chatgpt: 0, claude: 0, gemini: 0, codex: 0 };
+    const checked = form.querySelectorAll("input[type='radio']:checked");
+    checked.forEach((input) => {
+      if (score[input.value] !== undefined) score[input.value] += 1;
+    });
+    return Object.entries(score).sort((a, b) => b[1] - a[1])[0][0];
+  }
+
+  function renderResult(key) {
+    const data = results[key] || results.chatgpt;
+    title.textContent = data.title;
+    copy.textContent = data.copy;
+    points.innerHTML = data.points.map((item) => `<li>${escapeHtml(item)}</li>`).join("");
+    result.hidden = false;
+    result.dataset.result = key;
+
+    const url = new URL(window.location.href);
+    url.searchParams.set("result", key);
+    window.history.replaceState({}, "", url);
+
+    const articleUrl = new URL(articleLink.href);
+    articleUrl.searchParams.set("result", key);
+    articleLink.href = articleUrl.toString();
+
+    if (shareLink) {
+      const shareUrl = new URL(window.location.href);
+      shareUrl.searchParams.set("utm_source", "x");
+      shareUrl.searchParams.set("utm_medium", "share");
+      shareUrl.searchParams.set("utm_campaign", "ai_tool_choice");
+      shareLink.href = `https://x.com/intent/tweet?text=${encodeURIComponent(`私の診断結果: ${data.title}`)}&url=${encodeURIComponent(shareUrl.toString())}`;
+    }
+
+    result.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
+  form.addEventListener("submit", (event) => {
+    event.preventDefault();
+    renderResult(getWinner());
+  });
+
+  const initialResult = new URLSearchParams(window.location.search).get("result");
+  if (initialResult && results[initialResult]) {
+    renderResult(initialResult);
+  }
+});

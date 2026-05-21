@@ -320,15 +320,4 @@
       <news:title>AIで記事を書く日次ルーティン、朝にやること夜にやること</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://aivia-ai.github.io/articles/ai-category-design-before-writing/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>AIVIA</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-19T09:10:00.000Z</news:publication_date>
-      <news:title>AIで記事を増やす前に、カテゴリを決める理由</news:title>
-    </news:news>
-  </url>
 </urlset>
