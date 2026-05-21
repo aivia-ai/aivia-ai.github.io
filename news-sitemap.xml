@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://aivia-ai.github.io/articles/chatgpt-beginner-books-before-buy/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>AIVIA</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-21T07:20:00.000Z</news:publication_date>
+      <news:title>ChatGPT入門書を買う前に見る3つのポイント</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://aivia-ai.github.io/articles/ai-tool-choice-diagnosis/</loc>
     <news:news>
       <news:publication>
@@ -384,17 +395,6 @@
       </news:publication>
       <news:publication_date>2026-05-19T07:30:00.000Z</news:publication_date>
       <news:title>AIの料金プランを比べるとき、月額だけで決めない</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://aivia-ai.github.io/articles/ai-money-consult-privacy/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>AIVIA</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-19T07:20:00.000Z</news:publication_date>
-      <news:title>AIに家計相談をするとき、入れていい情報と危ない情報</news:title>
     </news:news>
   </url>
 </urlset>

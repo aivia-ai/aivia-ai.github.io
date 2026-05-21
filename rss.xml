@@ -5,6 +5,13 @@
   <link>https://aivia-ai.github.io/</link>
   <description>AIVIAは、AIニュース、ChatGPT、Claude Code、Codex、自動化、AIツールの使い方を短く実用目線で整理するAIメディアです。</description>
   <item>
+  <title>ChatGPT入門書を買う前に見る3つのポイント</title>
+  <link>https://aivia-ai.github.io/articles/chatgpt-beginner-books-before-buy/</link>
+  <guid>https://aivia-ai.github.io/articles/chatgpt-beginner-books-before-buy/</guid>
+  <pubDate>Thu, 21 May 2026 07:20:00 GMT</pubDate>
+  <description>ChatGPTや生成AIの本を買う前に、古くないか、初心者向けか、自分の目的に合うかを短く確認します。</description>
+</item>
+<item>
   <title>ChatGPT・Gemini・Claude・Codex、どれを使う・課金する？1分診断</title>
   <link>https://aivia-ai.github.io/articles/ai-tool-choice-diagnosis/</link>
   <guid>https://aivia-ai.github.io/articles/ai-tool-choice-diagnosis/</guid>
@@ -136,13 +143,6 @@
   <guid>https://aivia-ai.github.io/articles/claude-code-first-setup/</guid>
   <pubDate>Tue, 19 May 2026 13:50:00 GMT</pubDate>
   <description>Claude Codeを始める前に、作業フォルダ、認証、Git、実行コマンドを確認する理由を整理します。</description>
-</item>
-<item>
-  <title>Claude無料版と有料プラン、どこで判断する？</title>
-  <link>https://aivia-ai.github.io/articles/claude-plan-choice/</link>
-  <guid>https://aivia-ai.github.io/articles/claude-plan-choice/</guid>
-  <pubDate>Tue, 19 May 2026 13:49:00 GMT</pubDate>
-  <description>Claudeの無料版、有料プラン、チーム向けを選ぶときに、使う回数、資料量、仕事で使うかを見る考え方を整理します。</description>
 </item>
 </channel>
 </rss>
