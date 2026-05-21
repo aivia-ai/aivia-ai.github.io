@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://aivia-ai.github.io/articles/ai-tool-choice-diagnosis/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>AIVIA</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-21T05:10:00.000Z</news:publication_date>
+      <news:title>ChatGPT・Gemini・Claude・Codex、どれを使う？1分診断</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://aivia-ai.github.io/articles/nvidia-ai-agent-economy/</loc>
     <news:news>
       <news:publication>
@@ -505,28 +516,6 @@
       </news:publication>
       <news:publication_date>2026-05-19T04:30:00.000Z</news:publication_date>
       <news:title>ChatGPT、Gemini、Claude、最初に使うならどれ？</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://aivia-ai.github.io/articles/claude-artifacts-basic/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>AIVIA</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-19T04:20:00.000Z</news:publication_date>
-      <news:title>Claude Artifactsとは？AIが作ったものを横で見ながら直す感覚</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://aivia-ai.github.io/articles/gemini-gems-custom-ai/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>AIVIA</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-19T04:10:00.000Z</news:publication_date>
-      <news:title>Gemini Gemsとは？自分専用のAI係を作る考え方</news:title>
     </news:news>
   </url>
 </urlset>
