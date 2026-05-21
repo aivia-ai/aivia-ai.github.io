@@ -287,15 +287,4 @@
       <news:title>ASP登録前に見ること、A8・もしも・Amazonで迷わない準備</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://aivia-ai.github.io/articles/ai-site-publish-checklist/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>AIVIA</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-19T10:00:00.000Z</news:publication_date>
-      <news:title>AIでサイト公開まで進めるチェックリスト</news:title>
-    </news:news>
-  </url>
 </urlset>

@@ -165,6 +165,7 @@ document.querySelectorAll("[data-diagnosis-tool]").forEach((tool) => {
   const copy = tool.querySelector("[data-diagnosis-copy]");
   const points = tool.querySelector("[data-diagnosis-points]");
   const articleLink = tool.querySelector("[data-diagnosis-article]");
+  const amazonLink = tool.querySelector("[data-diagnosis-amazon]");
   const shareLink = tool.querySelector("[data-diagnosis-share]");
 
   if (!form || !result || !title || !copy || !points) return;
@@ -173,24 +174,34 @@ document.querySelectorAll("[data-diagnosis-tool]").forEach((tool) => {
     chatgpt: {
       title: "まずはChatGPTが合いそうです",
       copy: "相談、文章、要約、アイデア出しを広く使いたいなら、最初の有料候補はChatGPTです。",
-      points: ["使い道が広く、毎日の相談相手にしやすい", "文章作成や要約から試しやすい", "迷ったら最初の1つにしやすい"]
+      points: ["使い道が広く、毎日の相談相手にしやすい", "文章作成や要約から試しやすい", "迷ったら最初の1つにしやすい"],
+      amazon: "https://www.amazon.co.jp/s?k=ChatGPT+%E5%85%A5%E9%96%80&tag=aiviaai-22"
     },
     claude: {
       title: "Claudeが合いそうです",
       copy: "長い文章を読む、整える、自然な文章に直す作業が多いなら、Claudeを優先して試す価値があります。",
-      points: ["長文の整理や読み込みに向いている", "落ち着いた文章づくりに使いやすい", "資料をまとめる作業と相性がいい"]
+      points: ["長文の整理や読み込みに向いている", "落ち着いた文章づくりに使いやすい", "資料をまとめる作業と相性がいい"],
+      amazon: "https://www.amazon.co.jp/s?k=Claude+AI+%E5%85%A5%E9%96%80&tag=aiviaai-22"
     },
     gemini: {
       title: "Geminiが合いそうです",
       copy: "Google検索、Gmail、Docsなどをよく使うなら、Geminiを先に試すと作業の流れに乗せやすいです。",
-      points: ["Googleサービスとの相性を見やすい", "調べものから作業までつなげやすい", "AndroidやGoogle環境の人に向きやすい"]
+      points: ["Googleサービスとの相性を見やすい", "調べものから作業までつなげやすい", "AndroidやGoogle環境の人に向きやすい"],
+      amazon: "https://www.amazon.co.jp/s?k=Gemini+AI+%E5%85%A5%E9%96%80&tag=aiviaai-22"
     },
     codex: {
       title: "Codexも候補に入れるべきです",
       copy: "サイト制作、コード修正、自動化まで進めたいなら、会話AIだけでなくCodexを別枠で考えると判断しやすくなります。",
-      points: ["ファイルを直接扱う作業に向いている", "サイト制作や修正を進めやすい", "仕組み化したい人には強い選択肢になる"]
+      points: ["ファイルを直接扱う作業に向いている", "サイト制作や修正を進めやすい", "仕組み化したい人には強い選択肢になる"],
+      amazon: "https://www.amazon.co.jp/s?k=%E7%94%9F%E6%88%90AI+%E4%BB%95%E4%BA%8B%E8%A1%93&tag=aiviaai-22"
     }
   };
+
+  function trackEvent(name, params = {}) {
+    if (typeof window.gtag === "function") {
+      window.gtag("event", name, params);
+    }
+  }
 
   function getWinner() {
     const score = { chatgpt: 0, claude: 0, gemini: 0, codex: 0 };
@@ -225,6 +236,15 @@ document.querySelectorAll("[data-diagnosis-tool]").forEach((tool) => {
       shareLink.href = `https://x.com/intent/tweet?text=${encodeURIComponent(`私の診断結果: ${data.title}`)}&url=${encodeURIComponent(shareUrl.toString())}`;
     }
 
+    if (amazonLink && data.amazon) {
+      amazonLink.href = data.amazon;
+    }
+
+    trackEvent("diagnosis_result", {
+      result: key,
+      page_location: window.location.href
+    });
+
     result.scrollIntoView({ behavior: "smooth", block: "start" });
   }
 
@@ -237,4 +257,8 @@ document.querySelectorAll("[data-diagnosis-tool]").forEach((tool) => {
   if (initialResult && results[initialResult]) {
     renderResult(initialResult);
   }
+
+  articleLink?.addEventListener("click", () => trackEvent("diagnosis_article_click", { result: result.dataset.result || "" }));
+  amazonLink?.addEventListener("click", () => trackEvent("diagnosis_amazon_click", { result: result.dataset.result || "" }));
+  shareLink?.addEventListener("click", () => trackEvent("diagnosis_share_click", { result: result.dataset.result || "" }));
 });

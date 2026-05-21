@@ -2127,6 +2127,17 @@ a:hover {
   font-weight: 900;
 }
 
+.diagnosis-actions .diagnosis-pr-link {
+  color: var(--accent-dark);
+}
+
+.diagnosis-pr-note {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
 .archive-hero {
   max-width: none;
   margin-bottom: 18px;
