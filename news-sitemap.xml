@@ -20,7 +20,7 @@
         <news:language>ja</news:language>
       </news:publication>
       <news:publication_date>2026-05-21T05:10:00.000Z</news:publication_date>
-      <news:title>ChatGPT・Gemini・Claude・Codex、どれを使う・課金する？1分診断</news:title>
+      <news:title>ChatGPT・Claude・Gemini、課金するならどれ？1分診断</news:title>
     </news:news>
   </url>
   <url>
@@ -329,61 +329,6 @@
       </news:publication>
       <news:publication_date>2026-05-19T09:10:00.000Z</news:publication_date>
       <news:title>AIで記事を増やす前に、カテゴリを決める理由</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://aivia-ai.github.io/articles/aivia-site-concept/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>AIVIA</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-19T09:00:00.000Z</news:publication_date>
-      <news:title>AIVIAは何をするサイト？AIへの近道をやさしく作る</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://aivia-ai.github.io/articles/ai-practical-database-concept/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>AIVIA</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-19T08:30:00.000Z</news:publication_date>
-      <news:title>AI活用データベースとは？ニュースより残るサイトの作り方</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://aivia-ai.github.io/articles/ai-work-time-log/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>AIVIA</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-19T08:20:00.000Z</news:publication_date>
-      <news:title>AIで作業時間を記録すると、収益化の現実が見える</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://aivia-ai.github.io/articles/ai-prompt-reduce-mistakes/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>AIVIA</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-19T08:10:00.000Z</news:publication_date>
-      <news:title>AIの間違いを減らす質問の書き方</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://aivia-ai.github.io/articles/ai-personal-data-check/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>AIVIA</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-19T08:00:00.000Z</news:publication_date>
-      <news:title>AIに個人情報を入れる前に確認したいこと</news:title>
     </news:news>
   </url>
 </urlset>
