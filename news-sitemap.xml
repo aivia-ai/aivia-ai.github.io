@@ -639,37 +639,4 @@
       <news:title>Codexでサイト修正を頼むときの書き方</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://aivia-ai.github.io/articles/codex-beginner-what-can-ask/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>AIVIA</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-19T01:20:00.000Z</news:publication_date>
-      <news:title>Codexとは？プログラミングが苦手でも何を頼めるのか</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://aivia-ai.github.io/articles/chatgpt-connectors-file-search/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>AIVIA</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-19T01:10:00.000Z</news:publication_date>
-      <news:title>ChatGPT Connectorsとは？自分の資料を探してもらう前に知ること</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://aivia-ai.github.io/articles/chatgpt-tasks-daily-automation/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>AIVIA</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-19T01:00:00.000Z</news:publication_date>
-      <news:title>ChatGPT Tasksで何ができる？毎日の確認をAIに頼む考え方</news:title>
-    </news:news>
-  </url>
 </urlset>
