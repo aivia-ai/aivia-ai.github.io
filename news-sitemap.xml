@@ -683,37 +683,4 @@
       <news:title>ChatGPT Projectsとは？長く続く作業をまとめる箱として考える</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://aivia-ai.github.io/articles/chatgpt-free-paid-plan-check/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>AIVIA</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-19T00:20:00.000Z</news:publication_date>
-      <news:title>ChatGPT無料版と有料版、どこで判断する？</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://aivia-ai.github.io/articles/chatgpt-first-five-uses/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>AIVIA</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-19T00:10:00.000Z</news:publication_date>
-      <news:title>ChatGPTは何に使える？最初に試したい5つの使い方</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://aivia-ai.github.io/articles/chatgpt-codex-homepage-build-test/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>AIVIA</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-19T00:00:00.000Z</news:publication_date>
-      <news:title>ChatGPTとCodexでホームページは作れる？実際に試してわかったこと</news:title>
-    </news:news>
-  </url>
 </urlset>
