@@ -529,15 +529,4 @@
       <news:title>Gemini Gemsとは？自分専用のAI係を作る考え方</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://aivia-ai.github.io/articles/gemini-deep-research-basic/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>AIVIA</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-19T04:00:00.000Z</news:publication_date>
-      <news:title>Gemini Deep Researchは何が便利？調べものを任せる前の注意点</news:title>
-    </news:news>
-  </url>
 </urlset>
