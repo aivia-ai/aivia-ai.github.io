@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://aivia-ai.github.io/articles/chatgpt-claude-gemini-paid-plan-check/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>AIVIA</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-21T11:10:00.000Z</news:publication_date>
+      <news:title>ChatGPT Plus・Claude Pro・Gemini Advanced、課金するならどれ？</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://aivia-ai.github.io/articles/chatgpt-beginner-books-before-buy/</loc>
     <news:news>
       <news:publication>

@@ -5,6 +5,13 @@
   <link>https://aivia-ai.github.io/</link>
   <description>AIVIAは、AIニュース、ChatGPT、Claude Code、Codex、自動化、AIツールの使い方を短く実用目線で整理するAIメディアです。</description>
   <item>
+  <title>ChatGPT Plus・Claude Pro・Gemini Advanced、課金するならどれ？</title>
+  <link>https://aivia-ai.github.io/articles/chatgpt-claude-gemini-paid-plan-check/</link>
+  <guid>https://aivia-ai.github.io/articles/chatgpt-claude-gemini-paid-plan-check/</guid>
+  <pubDate>Thu, 21 May 2026 11:10:00 GMT</pubDate>
+  <description>ChatGPT Plus、Claude Pro、Gemini Advancedで迷う人向けに、無料版で足りる人、課金してよい人、まず確認するポイントを短く整理します。</description>
+</item>
+<item>
   <title>ChatGPT入門書を買う前に見る3つのポイント</title>
   <link>https://aivia-ai.github.io/articles/chatgpt-beginner-books-before-buy/</link>
   <guid>https://aivia-ai.github.io/articles/chatgpt-beginner-books-before-buy/</guid>
@@ -136,13 +143,6 @@
   <guid>https://aivia-ai.github.io/articles/claude-code-ask-guide/</guid>
   <pubDate>Tue, 19 May 2026 13:51:00 GMT</pubDate>
   <description>Claude Codeへ修正や調査を頼むとき、目的、対象ファイル、確認方法を入れると失敗しにくい理由を整理します。</description>
-</item>
-<item>
-  <title>Claude Codeの始め方、最初に確認すること</title>
-  <link>https://aivia-ai.github.io/articles/claude-code-first-setup/</link>
-  <guid>https://aivia-ai.github.io/articles/claude-code-first-setup/</guid>
-  <pubDate>Tue, 19 May 2026 13:50:00 GMT</pubDate>
-  <description>Claude Codeを始める前に、作業フォルダ、認証、Git、実行コマンドを確認する理由を整理します。</description>
 </item>
 </channel>
 </rss>
