@@ -167,6 +167,8 @@ document.querySelectorAll("[data-diagnosis-tool]").forEach((tool) => {
   const articleLink = tool.querySelector("[data-diagnosis-article]");
   const amazonLink = tool.querySelector("[data-diagnosis-amazon]");
   const shareLink = tool.querySelector("[data-diagnosis-share]");
+  const copyButton = tool.querySelector("[data-diagnosis-copy]");
+  const copyMessage = tool.querySelector("[data-diagnosis-copy-message]");
 
   if (!form || !result || !title || !copy || !points) return;
 
@@ -219,6 +221,7 @@ document.querySelectorAll("[data-diagnosis-tool]").forEach((tool) => {
     points.innerHTML = data.points.map((item) => `<li>${escapeHtml(item)}</li>`).join("");
     result.hidden = false;
     result.dataset.result = key;
+    result.dataset.shareText = `私のAI課金診断は「${data.title}」でした。\nChatGPT・Claude・Geminiで迷う人向けの1分診断です。\n${window.location.origin}/diag/?result=${encodeURIComponent(key)}&utm_source=copy&utm_medium=share&utm_campaign=ai_tool_choice`;
 
     const url = new URL(window.location.href);
     url.searchParams.set("result", key);
@@ -261,4 +264,24 @@ document.querySelectorAll("[data-diagnosis-tool]").forEach((tool) => {
   articleLink?.addEventListener("click", () => trackEvent("diagnosis_article_click", { result: result.dataset.result || "" }));
   amazonLink?.addEventListener("click", () => trackEvent("diagnosis_amazon_click", { result: result.dataset.result || "" }));
   shareLink?.addEventListener("click", () => trackEvent("diagnosis_share_click", { result: result.dataset.result || "" }));
+  copyButton?.addEventListener("click", async () => {
+    const text = result.dataset.shareText || `ChatGPT・Claude・Gemini、課金するならどれ？1分診断\n${window.location.origin}/diag/`;
+    try {
+      await navigator.clipboard.writeText(text);
+      if (copyMessage) {
+        copyMessage.hidden = false;
+        copyMessage.textContent = "コピーしました。XやSNS投稿に使えます。";
+      }
+      copyButton.textContent = "コピー済み";
+      window.setTimeout(() => {
+        copyButton.textContent = copyButton.dataset.copyDefault || "結果をコピー";
+      }, 1600);
+      trackEvent("diagnosis_copy_click", { result: result.dataset.result || "" });
+    } catch {
+      if (copyMessage) {
+        copyMessage.hidden = false;
+        copyMessage.textContent = "コピーできませんでした。URLを直接共有してください。";
+      }
+    }
+  });
 });
