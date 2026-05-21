@@ -1447,6 +1447,53 @@ a:hover {
   color: #083c88;
 }
 
+.article-diagnosis-cta {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 14px;
+  align-items: center;
+  margin: 18px 0;
+  padding: 15px;
+  border: 1px solid rgba(12, 79, 179, 0.2);
+  border-radius: 8px;
+  background: linear-gradient(135deg, #f7fbff 0%, #fff 72%);
+}
+
+.article-diagnosis-cta span {
+  color: #0c4fb3;
+  font-size: 0.76rem;
+  font-weight: 900;
+}
+
+.article-diagnosis-cta strong {
+  display: block;
+  margin-top: 3px;
+  color: var(--navy);
+  font-size: 1.05rem;
+  line-height: 1.35;
+}
+
+.article-diagnosis-cta p {
+  margin: 5px 0 0;
+  color: var(--muted);
+  font-size: 0.88rem;
+  font-weight: 700;
+  line-height: 1.55;
+}
+
+.article-diagnosis-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  justify-content: end;
+}
+
+.article-diagnosis-actions a:not(.button) {
+  color: #0c4fb3;
+  font-weight: 900;
+}
+
 .article-layout {
   display: grid;
   grid-template-columns: minmax(0, 760px) minmax(240px, 1fr);
@@ -2386,6 +2433,14 @@ a:hover {
   .page,
   .lead-story {
     padding: 22px;
+  }
+
+  .article-diagnosis-cta {
+    grid-template-columns: 1fr;
+  }
+
+  .article-diagnosis-actions {
+    justify-content: start;
   }
 }
 
