@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="index,follow,max-image-preview:large">
-    <meta name="description" content="AIVIAが公開しているWebサイト一覧です。沖縄お墓まもりサポートなどの公開サイトへ移動できます。">
+    <meta name="description" content="AIVIAが公開しているWebサイト一覧です。沖縄お墓まもりサポートのサービス内容、対応エリア、ご依頼前ガイド、シーミー前清掃、プライバシーポリシーへ移動できます。">
     <meta name="google-adsense-account" content="ca-pub-1561149688913458">
     <title>AIVIA 公開サイト一覧</title>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1561149688913458" crossorigin="anonymous"></script>
@@ -60,7 +60,8 @@
         line-height: 1.8;
       }
 
-      .site-card {
+      .site-card,
+      .link-section {
         display: grid;
         gap: 16px;
         margin-top: 24px;
@@ -71,14 +72,17 @@
         box-shadow: 0 14px 34px rgba(0, 70, 155, 0.1);
       }
 
-      .site-card h2 {
+      .site-card h2,
+      .link-section h2 {
         margin: 0;
         color: var(--deep);
         font-size: 26px;
         line-height: 1.4;
       }
 
-      .site-card a {
+      .site-card a,
+      .link-grid a,
+      .footer-links a {
         display: inline-flex;
         align-items: center;
         justify-content: center;
@@ -91,10 +95,48 @@
         border-radius: 7px;
       }
 
+      .link-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+      }
+
+      .link-grid a {
+        width: 100%;
+        min-height: 56px;
+        color: var(--deep);
+        background: #f3f9ff;
+        border: 1px solid var(--line);
+      }
+
+      .footer-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 18px;
+      }
+
+      .footer-links a {
+        min-height: 38px;
+        color: var(--deep);
+        background: #fff;
+        border: 1px solid var(--line);
+      }
+
       footer {
         margin-top: 30px;
         color: #52687e;
         font-size: 14px;
+      }
+
+      @media (max-width: 640px) {
+        main {
+          padding: 28px 0;
+        }
+
+        .link-grid {
+          grid-template-columns: 1fr;
+        }
       }
     </style>
   </head>
@@ -112,8 +154,24 @@
         <a href="https://aivia-ai.github.io/okinawa-grave-care-lp/">サイトを見る</a>
       </article>
 
+      <section class="link-section" aria-labelledby="site-links-title">
+        <h2 id="site-links-title">主要ページ</h2>
+        <p>サービス内容やご依頼前の確認事項は、以下のページから確認できます。</p>
+        <div class="link-grid">
+          <a href="https://aivia-ai.github.io/okinawa-grave-care-lp/areas.html">対応エリア</a>
+          <a href="https://aivia-ai.github.io/okinawa-grave-care-lp/guide.html">ご依頼前ガイド</a>
+          <a href="https://aivia-ai.github.io/okinawa-grave-care-lp/seimei.html">シーミー前清掃</a>
+          <a href="https://aivia-ai.github.io/okinawa-grave-care-lp/privacy.html">プライバシーポリシー</a>
+        </div>
+      </section>
+
       <footer>
         <p>© AIVIA</p>
+        <div class="footer-links">
+          <a href="privacy.html">AIVIAプライバシーポリシー</a>
+          <a href="sitemap.xml">サイトマップ</a>
+          <a href="ads.txt">ads.txt</a>
+        </div>
       </footer>
     </main>
   </body>
