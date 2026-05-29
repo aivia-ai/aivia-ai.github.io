@@ -1,2 +1,4 @@
 User-agent: *
-Disallow: /
+Allow: /
+
+Sitemap: https://aivia-ai.github.io/okinawa-grave-care-lp/sitemap.xml
