@@ -1,80 +1,120 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AIVIA は現在非公開です</title>
-  <meta name="robots" content="noindex, nofollow, noarchive">
-  <meta name="description" content="AIVIA は現在非公開です。">
-  <style>
-    :root {
-      color-scheme: light;
-      --bg: #f4f1ea;
-      --panel: #fffaf2;
-      --text: #1f1a17;
-      --muted: #6d625a;
-      --accent: #9f3d1c;
-      --line: #decfbc;
-    }
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index,follow,max-image-preview:large">
+    <meta name="description" content="AIVIAが公開しているWebサイト一覧です。沖縄お墓まもりサポートなどの公開サイトへ移動できます。">
+    <meta name="google-adsense-account" content="ca-pub-1561149688913458">
+    <title>AIVIA 公開サイト一覧</title>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1561149688913458" crossorigin="anonymous"></script>
+    <style>
+      :root {
+        --blue: #0659c9;
+        --deep: #003a97;
+        --line: #cfe4f8;
+        --text: #172a42;
+      }
 
-    * {
-      box-sizing: border-box;
-    }
+      * {
+        box-sizing: border-box;
+      }
 
-    body {
-      margin: 0;
-      min-height: 100vh;
-      font-family: "Yu Gothic", "Hiragino Sans", sans-serif;
-      background:
-        radial-gradient(circle at top left, rgba(159, 61, 28, 0.14), transparent 36%),
-        linear-gradient(180deg, #f7f2ea 0%, var(--bg) 100%);
-      color: var(--text);
-      display: grid;
-      place-items: center;
-      padding: 24px;
-    }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        color: var(--text);
+        font-family: "Yu Gothic", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+        font-weight: 700;
+        background:
+          linear-gradient(180deg, rgba(232, 247, 255, 0.95), #fff 46%),
+          #fff;
+      }
 
-    main {
-      width: min(720px, 100%);
-      background: var(--panel);
-      border: 1px solid var(--line);
-      border-radius: 24px;
-      padding: 40px 32px;
-      box-shadow: 0 18px 50px rgba(60, 39, 24, 0.10);
-    }
+      main {
+        width: min(980px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 56px 0;
+      }
 
-    .eyebrow {
-      display: inline-block;
-      font-size: 0.85rem;
-      letter-spacing: 0.08em;
-      color: var(--accent);
-      margin-bottom: 12px;
-    }
+      .hero {
+        padding: 42px 0 34px;
+      }
 
-    h1 {
-      margin: 0 0 16px;
-      font-size: clamp(2rem, 5vw, 3.2rem);
-      line-height: 1.1;
-    }
+      .eyebrow {
+        margin: 0 0 10px;
+        color: var(--blue);
+        font-size: 14px;
+      }
 
-    p {
-      margin: 0;
-      font-size: 1rem;
-      line-height: 1.8;
-      color: var(--muted);
-    }
+      h1 {
+        margin: 0 0 16px;
+        color: var(--deep);
+        font-size: clamp(34px, 5vw, 58px);
+        line-height: 1.22;
+      }
 
-    p + p {
-      margin-top: 14px;
-    }
-  </style>
-</head>
-<body>
-  <main>
-    <div class="eyebrow">AIVIA</div>
-    <h1>現在、このサイトは非公開です。</h1>
-    <p>公開内容の見直しのため、外部からの閲覧を停止しています。</p>
-    <p>必要に応じて再公開します。</p>
-  </main>
-</body>
+      p {
+        margin: 0;
+        font-size: 17px;
+        line-height: 1.8;
+      }
+
+      .site-card {
+        display: grid;
+        gap: 16px;
+        margin-top: 24px;
+        padding: 26px;
+        background: rgba(255, 255, 255, 0.97);
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        box-shadow: 0 14px 34px rgba(0, 70, 155, 0.1);
+      }
+
+      .site-card h2 {
+        margin: 0;
+        color: var(--deep);
+        font-size: 26px;
+        line-height: 1.4;
+      }
+
+      .site-card a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: fit-content;
+        min-height: 44px;
+        padding: 10px 18px;
+        color: #fff;
+        text-decoration: none;
+        background: linear-gradient(180deg, #1478ff, #004fb8);
+        border-radius: 7px;
+      }
+
+      footer {
+        margin-top: 30px;
+        color: #52687e;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="hero">
+        <p class="eyebrow">AIVIA Public Sites</p>
+        <h1>AIVIA 公開サイト一覧</h1>
+        <p>現在公開しているWebサイトへの案内ページです。各サイトではサービス内容、対応エリア、問い合わせ方法、プライバシーポリシーを確認できます。</p>
+      </section>
+
+      <article class="site-card">
+        <h2>沖縄お墓まもりサポート</h2>
+        <p>沖縄県内のお墓掃除・お墓清掃・お墓管理代行サービスです。草刈り、お花・お線香のお供え、写真付き報告、シーミー前清掃、定期管理に対応します。</p>
+        <a href="https://aivia-ai.github.io/okinawa-grave-care-lp/">サイトを見る</a>
+      </article>
+
+      <footer>
+        <p>© AIVIA</p>
+      </footer>
+    </main>
+  </body>
 </html>
